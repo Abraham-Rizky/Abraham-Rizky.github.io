@@ -10,6 +10,15 @@ body {
     font-size: 16px;
     font-family: "Helvetica", "Josefin Sans", sans-serif;
     margin: auto;
+    background-color: whitesmoke;
+    background-image: url(/assignments/lesson-5/images/bodybackground.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
     /* Declare the base font-family - from google font api or other */
 }
 
@@ -25,6 +34,11 @@ header {
     display: block;
     height: 100px;
     margin: 0 auto;
+    border: 2px groove grey;
+    background-color: #08b4e0;
+    color: #7C4B22;
+
+
 
 }
 
@@ -33,6 +47,7 @@ header h1 {
     text-align: center;
     vertical-align: middle;
     margin: 0 auto;
+    text-shadow: 2px 1px black;
 
 }
 
@@ -49,13 +64,15 @@ header .subheading {
     font-size: 15px;
     margin: 0 auto;
     padding-top: 0.75em;
-
+    color: #4C721D;
 
 }
 
 nav {
     text-align: center;
     margin: 0 auto;
+    clear: both;
+
 }
 
 nav button {
@@ -64,6 +81,7 @@ nav button {
 
 nav ul {
     list-style-type: none;
+    margin-bottom: -50px;
 }
 
 nav ul li {
@@ -76,21 +94,23 @@ nav ul li {
 nav ul li a {
     display: block;
     text-decoration: none;
-    color: #616161;
+    color: #7C4B22;
     padding: 10px 0;
-    border: 1px solid grey;
+    border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 0.5em;
+    background-color: lightskyblue;
+    box-shadow: 4px 3px whitesmoke;
 }
 
 nav ul li.active a {
-    background-color: skyblue;
+    background-color: grey;
     color: white;
 }
 
 nav ul li a:hover {
     background-color: #555;
-    color: white;
+    color: skyblue;
 }
 
 main {
@@ -110,21 +130,38 @@ main h2 {
 main figure {
     margin: 0 0 .2rem 2%;
     width: 96%;
+
 }
 
 main figure img {
     width: 100%;
+    border-radius: 10px;
 }
 
 section {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
+    width: 75%;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 8px 6px whitesmoke;
+    max-width: 750px;
+    font-size: 18px;
+    background-color: lightskyblue;
+    color: #4C721D;
+    margin-bottom: 1.20em;
+    margin-top: 1em;
 }
 
 article {
     text-align: center;
+    color: whitesmoke;
+    border: 2px groove grey;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 90%;
+    padding: 1em 1em;
+
 }
 
 article p.town-article img {
@@ -137,16 +174,23 @@ article p.town-article img {
 
 footer {
     display: block;
-    margin: 0 auto;
+    margin-top: 2em;
     clear: both;
+    border: 2px groove grey;
+    background-color: #08b4e0;
+    color: antiquewhite;
+    padding: 1em 1em;
 }
 
 footer aside {
     text-align: center;
+    color: #7C4B22;
+
 }
 
 footer > p {
     text-align: center;
+    color: #7C4B22;
 }
 
 

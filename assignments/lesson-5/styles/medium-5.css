@@ -11,11 +11,7 @@
     article p.town-article img {
         width: 62.666%;
         float: right;
-    }nav ul li {
-        width: 200px;
-        float: left;
-        margin: 0 auto;
-        padding-right: 1em;
+
     }
 
     /* responsive images */
