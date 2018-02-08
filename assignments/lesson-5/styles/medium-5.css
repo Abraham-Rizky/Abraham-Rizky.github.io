@@ -40,3 +40,10 @@
 
     /* responsive images */
 }
+.size1 {
+    flex-grow: 1;
+}
+
+.size2 {
+    flex-grow: 2;
+}
