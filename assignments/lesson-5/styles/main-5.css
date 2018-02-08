@@ -1,0 +1,181 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    font-family: "Helvetica", "Josefin Sans", sans-serif;
+    margin: auto;
+    /* Declare the base font-family - from google font api or other */
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+
+}
+
+header h1 {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+
+}
+
+header img {
+    float: left;
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+header .subheading {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 auto;
+    padding-top: 0.75em;
+
+
+}
+
+nav {
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav button {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    width: 250px;
+    margin: 0 auto;
+
+
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #616161;
+    padding: 10px 0;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 0.5em;
+}
+
+nav ul li.active a {
+    background-color: skyblue;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 32px;
+    display: block;
+    clear: both;
+    padding-top: 1em;
+    position: relative;
+}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main figure img {
+    width: 100%;
+}
+
+section {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+article {
+    text-align: center;
+}
+
+article p.town-article img {
+    float: right;
+    margin: 0 0 1em 1em;
+    max-width: 100%;
+    /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    /* fill the page in the small/phone view */
+}
+
+footer {
+    display: block;
+    margin: 0 auto;
+    clear: both;
+}
+
+footer aside {
+    text-align: center;
+}
+
+footer > p {
+    text-align: center;
+}
+
+
+
+/* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
+
+.town-article {
+    text-align: justify;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.forecast {
+    border: 1px solid black;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: none;
+}
+
+.current {
+    text-align: center;
+}
+
+.highlow {
+    display: block;
+}

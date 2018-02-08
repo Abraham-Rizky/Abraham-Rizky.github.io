@@ -1,0 +1,37 @@
+@media only screen and (min-width: 64em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+    article p.town-article img {
+        width: 29.333%;
+    }
+
+    nav {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0 auto;
+    }
+
+    nav ul li {
+        width: 200px;
+        margin: 0 auto;
+
+
+    }
+    nav ul li a {
+        display: block;
+        text-decoration: none;
+        color: #616161;
+        padding: 10px 0;
+        border: 1px solid grey;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+}
