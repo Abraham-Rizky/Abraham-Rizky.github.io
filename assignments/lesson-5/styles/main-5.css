@@ -28,6 +28,7 @@ main,
 footer {
     /* the comma means apply the following CSS declarations to all of the listed elements */
     /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    max-width: 100%;
 }
 
 header {
@@ -73,7 +74,7 @@ header .subheading {
 
 nav {
     clear: both;
-    margin-left: -2em;
+
 }
 
 nav button {
@@ -82,22 +83,24 @@ nav button {
 
 nav ul {
     list-style-type: none;
+    margin-left:-2em;
 }
 
 nav ul li {
-    width: 220px;
-    margin: 0px auto;
+width: 200px;
+    margin: 0 auto;
+
+
 }
 
 nav ul li a {
     display: block;
     text-decoration: none;
     color: #7C4B22;
-    padding: 10px 0;
-    border-radius: 10px;
-    background-color: lightskyblue;
+    padding: 10px 10px;
     margin-bottom: 0.5em;
     text-align: center;
+
 }
 
 nav ul li.active a {
@@ -142,7 +145,6 @@ section {
     border-radius: 10px;
     box-shadow: 8px 6px grey;
     max-width: 750px;
-    font-size: 18px;
     background-color: lightskyblue;
     color: #4C721D;
     margin-bottom: 1.20em;
@@ -161,9 +163,8 @@ article {
 }
 
 article p.town-article img {
-    float: right;
-    margin: 0 0 1em 1em;
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
     /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     /* fill the page in the small/phone view */
 }
@@ -193,6 +194,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0px;
     width: 100%;
+    table-layout: fixed;
 
 }
 
@@ -202,8 +204,6 @@ td {
     padding: 5px;
     border: 1px solid black;
     border-radius: 10px;
-    max-height: 100%;
-    max-width: 100%;
 }
 
 
@@ -222,8 +222,7 @@ td {
 
 .forecast {
     border: 2px groove black;
-    max-width: 1200px;
-    width: 55%;
+    width: 75%;
     margin-bottom: 1.5em;
     text-align: center;
     display: none;
