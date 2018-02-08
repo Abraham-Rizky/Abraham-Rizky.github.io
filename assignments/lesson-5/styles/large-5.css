@@ -10,16 +10,16 @@
         max-width: 100%;
     }
     nav {
-        float: left;
         margin: 0 auto;
 
     }
     nav ul {
         margin: 0 auto;
+        flex-direction: row;
     }
     nav ul li {
         float: left;
-        width: 200px;
+        width: 16%;
         margin: 0 auto;
     }
 
