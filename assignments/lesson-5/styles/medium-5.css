@@ -11,6 +11,8 @@
     article p.town-article img {
         width: 62.666%;
         float: right;
+        margin-left: 10px;
+
 
     }
     header img {
@@ -21,6 +23,7 @@
     }
 
     nav {
+
         margin: 0 auto;
 
     }

@@ -2,6 +2,7 @@
     /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
     article p.town-article img {
         width: 29.333%;
+        margin-left: 10px;
     }
     header img {
         float: left;
@@ -26,9 +27,7 @@
     section.forecast {
         display: block;
     }
-    article p.town-article img {
-        padding-left: 1em;
-    }
+
 
 
 }
