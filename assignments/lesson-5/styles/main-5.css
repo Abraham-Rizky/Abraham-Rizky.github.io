@@ -70,9 +70,8 @@ header .subheading {
 
 nav {
     text-align: center;
-    margin: 0 auto;
     clear: both;
-
+    max-width: 90%;
 }
 
 nav button {
@@ -81,14 +80,11 @@ nav button {
 
 nav ul {
     list-style-type: none;
-    margin-bottom: -50px;
 }
 
 nav ul li {
     width: 250px;
     margin: 0 auto;
-
-
 }
 
 nav ul li a {
@@ -96,11 +92,9 @@ nav ul li a {
     text-decoration: none;
     color: #7C4B22;
     padding: 10px 0;
-    border: 1px solid black;
     border-radius: 10px;
-    margin-bottom: 0.5em;
     background-color: lightskyblue;
-    box-shadow: 4px 3px whitesmoke;
+    margin-bottom: 0.5em;
 }
 
 nav ul li.active a {
@@ -120,11 +114,10 @@ main {
 
 main h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 24px;
     display: block;
     clear: both;
-    padding-top: 1em;
-    position: relative;
+    color: #7C4B22;
 }
 
 main figure {
@@ -144,7 +137,7 @@ section {
     border: 2px solid black;
     margin: 0 auto;
     border-radius: 10px;
-    box-shadow: 8px 6px whitesmoke;
+    box-shadow: 8px 6px grey;
     max-width: 750px;
     font-size: 18px;
     background-color: lightskyblue;
@@ -155,7 +148,7 @@ section {
 
 article {
     text-align: center;
-    color: whitesmoke;
+    color: #4C721D;
     border: 2px groove grey;
     margin: 0 auto;
     border-radius: 10px;
