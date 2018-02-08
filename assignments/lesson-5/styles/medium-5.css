@@ -5,13 +5,19 @@
     }
     /* hamburger button does not need to be shown */
     section.forecast {
-        display: ???;
+        display: block;
     }
     /* show the 10-day forecast with the medium view and up */
     article p.town-article img {
         width: 62.666%;
         float: right;
 
+    }
+    header img {
+        float: left;
+        position: absolute;
+        max-height: 100%;
+        max-width: 100%;
     }
 
     /* responsive images */

@@ -69,9 +69,8 @@ header .subheading {
 }
 
 nav {
-    text-align: center;
     clear: both;
-    max-width: 90%;
+    margin-left: -2em;
 }
 
 nav button {
@@ -83,8 +82,8 @@ nav ul {
 }
 
 nav ul li {
-    width: 250px;
-    margin: 0 auto;
+    width: 220px;
+    margin: 0px auto;
 }
 
 nav ul li a {
@@ -95,6 +94,7 @@ nav ul li a {
     border-radius: 10px;
     background-color: lightskyblue;
     margin-bottom: 0.5em;
+    text-align: center;
 }
 
 nav ul li.active a {
@@ -153,7 +153,7 @@ article {
     margin: 0 auto;
     border-radius: 10px;
     max-width: 90%;
-    padding: 1em 1em;
+    padding: 3em 3em;
 
 }
 
@@ -201,12 +201,13 @@ footer > p {
 }
 
 .forecast {
-    border: 1px solid black;
+    border: 2px groove black;
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 55%;
+    margin-bottom: 1.5em;
     text-align: center;
     display: none;
+    padding: 1em 1em;
 }
 
 .current {
