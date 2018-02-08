@@ -20,27 +20,26 @@
     }
 
     nav {
-
         margin: 0 auto;
+
 
     }
     nav ul {
         margin: 0 auto;
         flex-direction: row;
+
     }
     nav ul li {
         float: left;
         width: 16%;
         margin: 0 auto;
+        flex-grow: 2;
+
+    }
+    nav ul li a {
+        height: 100%;
+        margin: 0 auto;
     }
 
-
     /* responsive images */
-}
-.size1 {
-    flex-grow: 1;
-}
-
-.size2 {
-    flex-grow: 2;
 }
