@@ -66,6 +66,8 @@ header .subheading {
     margin: 0 auto;
     padding-top: 0.75em;
     color: #4C721D;
+    max-height: 100%;
+    max-width: 100%;
 
 }
 
@@ -186,18 +188,22 @@ footer > p {
     text-align: center;
     color: #7C4B22;
 }
-table
-{
+
+table {
     border-collapse: collapse;
     border-spacing: 0px;
     width: 100%;
 
 }
-table, th, td
-{
+
+table,
+th,
+td {
     padding: 5px;
     border: 1px solid black;
     border-radius: 10px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 
