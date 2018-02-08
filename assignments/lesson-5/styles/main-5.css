@@ -54,8 +54,7 @@ header h1 {
 
 header img {
     float: left;
-    position: relative;
-    padding: 3% 3%;
+    padding: 1% 1%;
 }
 
 header .subheading {
@@ -63,7 +62,6 @@ header .subheading {
     color: #4C721D;
     margin: 0 auto;
     text-align: center;
-    padding-top: 2%;
 }
 
 nav {

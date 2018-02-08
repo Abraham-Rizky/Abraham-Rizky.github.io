@@ -6,8 +6,6 @@
     }
     header img {
         float: left;
-        max-height: 100%;
-        max-width: 100%;
     }
     nav {
         margin: 0 auto;
@@ -30,6 +28,7 @@
 
 
 }
+
 .size1 {
     flex-grow: 1;
 }
