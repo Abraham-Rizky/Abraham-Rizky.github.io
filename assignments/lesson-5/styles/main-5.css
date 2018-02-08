@@ -33,7 +33,7 @@ footer {
 
 header {
     display: block;
-    height: 150px;
+    height: 100px;
     margin: 0 auto;
     border: 2px groove grey;
     background-color: #08b4e0;
@@ -55,8 +55,7 @@ header h1 {
 header img {
     float: left;
     position: relative;
-    padding-left: 3%;
-    padding-top: 3%;
+    padding: 3% 3%;
 }
 
 header .subheading {
