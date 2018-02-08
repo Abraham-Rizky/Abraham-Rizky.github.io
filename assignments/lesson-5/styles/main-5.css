@@ -81,7 +81,7 @@ nav button {
 
 nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     flex-direction: column;
     list-style-type: none;
     width: 100%;
