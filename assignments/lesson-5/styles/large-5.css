@@ -12,9 +12,15 @@
     nav {
         float: left;
         margin: 0 auto;
+
+    }
+    nav ul {
+        margin: 0 auto;
     }
     nav ul li {
         float: left;
+        width: 200px;
+        margin: 0 auto;
     }
 
     section.forecast {

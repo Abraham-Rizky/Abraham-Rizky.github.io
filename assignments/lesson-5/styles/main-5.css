@@ -71,7 +71,9 @@ header .subheading {
 }
 
 nav {
+    display: block;
     clear: both;
+
 
 }
 
@@ -80,14 +82,14 @@ nav button {
 }
 
 nav ul {
+    display: block;
     list-style-type: none;
-    margin-left:-2em;
+    margin-left: -2em;
 }
 
 nav ul li {
-width: 200px;
+    display: block;
     margin: 0 auto;
-
 
 }
 
@@ -112,6 +114,7 @@ nav ul li a:hover {
 }
 
 main {
+    clear: both;
     display: block;
     margin: 0 auto;
 }
