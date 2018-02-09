@@ -7,26 +7,26 @@
     header img {
         float: left;
     }
-    nav {
-        margin: 0 auto;
-
-    }
-    nav ul {
-        margin: 0 auto;
-        flex-direction: row;
-    }
-    nav ul li {
-        float: left;
-        width: 16%;
-        margin: 0 auto;
-    }
 
     section.forecast {
         display: block;
     }
+    nav {}
+    nav ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+    nav ul li {
+        display: inline;
+        float: left;
+        width: 16.66%;
+        margin: 0;
+        padding: 0;
+        border: 2px groove grey;
 
+    }
+    nav ul li a {
+        padding: 10% 10%;
 
-
+    }
 }
-
-

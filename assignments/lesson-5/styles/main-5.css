@@ -67,9 +67,6 @@ header .subheading {
 
 nav {
     clear: both;
-    width: 96%;
-
-
 }
 
 nav button {
@@ -77,28 +74,27 @@ nav button {
 }
 
 nav ul {
-    display: flex;
-    justify-content:space-around;
-    flex-direction: column;
     list-style-type: none;
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    margin: 0 auto;
+
 }
 
 nav ul li {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
+    border: 1px groove black;
+    margin: 2% 2%;
 }
 
 nav ul li a {
-    display: block;
     text-decoration: none;
-    color: #7C4B22;
-    padding: 10px 10px;
-    margin-bottom: 0.5em;
+    display: block;
+    width: 100%;
     text-align: center;
-
-
+    padding: 3% 2%;
+    color: #7C4B22;
+    background-color: lightskyblue;
 }
 
 nav ul li.active a {
@@ -108,7 +104,7 @@ nav ul li.active a {
 
 nav ul li a:hover {
     background-color: #555;
-    color: skyblue;
+    color: white;
 }
 
 main {
