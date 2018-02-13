@@ -33,7 +33,7 @@ footer {
 
 header {
     display: block;
-    height: 130px;
+    height: 100px;
     margin: 0 auto;
     border: 2px groove grey;
     background-color: #08b4e0;
@@ -55,6 +55,9 @@ header h1 {
 header img {
     float: left;
     padding: 1% 1%;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 2% 0 0 ;
 }
 
 header .subheading {
@@ -233,10 +236,8 @@ td {
     display: block;
 }
 
-.size1 {
-    flex-grow: 1;
-}
-
-.size2 {
-    flex-grow: 2;
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
 }
