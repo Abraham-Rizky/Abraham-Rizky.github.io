@@ -251,7 +251,7 @@ td {
 .hamburger {
     display: block;
     position: absolute;
-    top: 2%;
+    top: 1%;
     right: 2%;
 }
 
@@ -290,6 +290,6 @@ td {
 
 navigation.responsive li a:hover {
     background-color: #555;
-    color: white;
+    color: #17852f;
 
 }
