@@ -11,6 +11,7 @@
     section.forecast {
         display: block;
     }
+    /*
     nav {}
     nav ul {
         width: 100%;
@@ -29,6 +30,7 @@
         padding: 10% 10%;
 
     }
+    */
     header .subheading{
         position: relative;
         left: 0;

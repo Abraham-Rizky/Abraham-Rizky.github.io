@@ -38,7 +38,7 @@ header {
     border: 2px groove grey;
     background-color: #08b4e0;
     color: #7C4B22;
-
+margin-bottom: 1%;
 
 
 }
@@ -50,7 +50,7 @@ header h1 {
     text-align: center;
     vertical-align: middle;
     text-shadow: 2px 1px black;
-    font-size: 1.5em;
+    font-size: 2em;
 
 }
 
@@ -69,7 +69,7 @@ header .subheading {
     color: #4C721D;
     text-align: center;
     padding-top: 2%;
-    font-size:0.9em;
+    font-size:1em;
 }
 
 nav {
@@ -87,12 +87,11 @@ nav ul {
     width: 65%;
     margin: 0 auto;
 
-
 }
 
 nav ul li {
     border: 1px groove black;
-    margin: 2% 2%;
+border-radius: 5px;
 }
 
 nav ul li a {
@@ -131,28 +130,29 @@ main h2 {
 }
 
 main figure {
-    margin: 0 0 .2rem 2%;
-    width: 96%;
-
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 main figure img {
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
+    margin-left: 5%;
 }
 
 section {
     text-align: center;
-    width: 75%;
+    width: 90%;
     border: 2px solid black;
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 8px 6px grey;
-    max-width: 750px;
     background-color: lightskyblue;
     color: #4C721D;
     margin-bottom: 1.20em;
     margin-top: 1em;
+    max-width: 100%
 }
 
 article {
@@ -227,7 +227,7 @@ td {
 
 .forecast {
     border: 2px groove black;
-    width: 75%;
+    width: 90%;
     margin-bottom: 1.5em;
     text-align: center;
     display: none;
@@ -258,10 +258,13 @@ td {
 .navigation {
     list-style: none;
     padding-left: 0;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .navigation li {
     display: none;
+
 }
 
 .navigation.responsive {
