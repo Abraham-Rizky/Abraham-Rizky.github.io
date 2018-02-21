@@ -47,17 +47,20 @@ header img {
     max-height: 100%;
     max-width: 100%;
 }
-wrapper-header{
+
+wrapper-header {
     display: flex;
 
 }
+
 header h1 {
     text-shadow: 2px 1px black;
     font-size: 1.6em;
     margin: 0 auto;
     text-align: left;
-    padding: 1% 1%;
+    padding: 3% 3%;
 }
+
 header .subheading {
     color: #4C721D;
     text-align: center;
@@ -65,60 +68,14 @@ header .subheading {
     margin: 0 auto;
 }
 
-nav {
-    clear: both;
-    margin-top: 1%;
-}
-
-nav button {
-    display: block;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 65%;
-    margin: 0 auto;
-
-}
-
-nav ul li {
-    border: 1px groove black;
-    border-radius: 5px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 3% 2%;
-    color: #7C4B22;
-    background-color: lightskyblue;
-
-}
-
-nav ul li.active a {
-    background-color: grey;
-    color: white;
-}
-
-nav ul li a:hover {
-    background-color: #555;
-    color: white;
-}
-
 main {
     clear: both;
-    display: block;
     margin: 0 auto;
 }
 
 main h2 {
     text-align: center;
     font-size: 24px;
-    display: block;
     clear: both;
     color: #7C4B22;
 }
@@ -169,7 +126,6 @@ article p.town-article img {
 }
 
 footer {
-    display: block;
     margin-top: 2em;
     clear: both;
     border: 2px groove grey;
@@ -232,9 +188,7 @@ td {
     text-align: center;
 }
 
-.highlow {
-    display: block;
-}
+.highlow {}
 
 .clearfix:after {
     content: "";
@@ -243,7 +197,6 @@ td {
 }
 
 .hamburger {
-    display: block;
     position: absolute;
     top: 1%;
     right: 2%;
@@ -262,31 +215,35 @@ td {
 }
 
 .navigation.responsive {
-    position: relative;
 }
 
 .navigation.responsive li {
-    background-color: #1a9835;
     display: block;
-    width: 100%;
-    margin: 2px 0;
+    background-color: lightskyblue;
+    margin:0 auto;
     border: 1px groove black;
+    text-align: center;
+
 
 }
 
 .navigation.responsive li a {
-    padding: 1rem;
     text-align: center;
-    display: block;
     text-decoration: none;
     font-size: 1rem;
     color: #eee;
     font-weight: 800;
-
+    display: block;
 }
 
-navigation.responsive li a:hover {
+.navigation.responsive li a:hover {
     background-color: #555;
-    color: #17852f;
+    color: white;
 
+}
+button {
+    border-radius: 7px;
+    background-color: darkgrey;
+    color: #4C721D;
+    margin-left: 1%;
 }

@@ -25,13 +25,13 @@
 
     <header>
         <div class=title-image>
-        <img alt="The site logo" src="images/groundhog.png" srcset="images/groundhog-120.png 1x,
+            <img alt="The site logo" src="images/groundhog.png" srcset="images/groundhog-120.png 1x,
                     images/groundhog-240.png 2x,
                     images/groundhog-360.png 3x">
         </div>
         <div class="wrapper-header">
-        <h1>Groundhog Forecast</h1>
-        <div class="subheading">Let Groundhog handle the  forecast for you!</div>
+            <h1>Groundhog Forecast</h1>
+            <div class="subheading">Let Groundhog handle the forecast for you!</div>
         </div>
     </header>
     <!-- site navigation use placeholder references -->
@@ -57,8 +57,10 @@
         <section>
             <h3>Weather Summary</h3>
             <div class="highlow">
-                <p>High:90&deg;F</p>
-                <p>Low:66&deg;F</p>
+                <p>High:
+                    <div id="highTemp">90</div>&deg;F</p>
+                <p>Low:
+                    <div id="lowTemp">66</div>&deg;F</p>
             </div>
             <div class="current">
                 <p>Sunny</p>
@@ -68,7 +70,12 @@
             </div>
             <div class="conditions">
                 <p>Precipitation:0%</p>
-                <p>Wind Speed: 7 mph SW</p>
+                <p>Wind Speed:
+                    <div id="windSpeed">7</div> mph SW</p>
+                <p>Wind chill:
+                    <input type="text" size="2" class="textbox" id="outputTextBox">
+                    <button type="button" class="button" onclick="computeWindChill()">Calculate</button>
+                </p>
             </div>
         </section>
 
