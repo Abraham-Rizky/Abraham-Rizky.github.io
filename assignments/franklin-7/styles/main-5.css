@@ -259,16 +259,6 @@ td {
     color: white;
 
 }
-
-/*
-button {
-    border-radius: 7px;
-    background-color: darkgrey;
-    color: #4C721D;
-    margin-left: 1%;
-}
-*/
-
 .button {
     -webkit-transition-duration: 0.3s;
     /* Safari */

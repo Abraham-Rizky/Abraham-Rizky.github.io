@@ -54,3 +54,18 @@
     /* responsive images */
 }
 
+.main-container {
+    display: flex;
+}
+main figure img {
+    height: 450px;
+    width: 80%;
+    margin-left: 0;
+    margin-left: 10%;
+}
+main .section1{
+    margin-top: 0;
+    height: 450px;
+    width: 80%;
+    margin-right: 5%;
+}
