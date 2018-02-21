@@ -19,6 +19,8 @@
     <!-- medium/tablet views -->
     <link href="styles/large-5.css" rel="stylesheet">
     <!-- large/wide/desktop views -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -57,10 +59,10 @@
         <section>
             <h3>Weather Summary</h3>
             <div class="highlow">
-                <p>High:
-                    <div id="highTemp">90</div>&deg;F</p>
-                <p>Low:
-                    <div id="lowTemp">66</div>&deg;F</p>
+                <p>
+                <div id="highTemp">High: 50&deg;F</div></p>
+                <p>
+            <div id="lowTemp">Low: 40&deg;F</div></p>
             </div>
             <div class="current">
                 <p>Sunny</p>
@@ -70,12 +72,14 @@
             </div>
             <div class="conditions">
                 <p>Precipitation:0%</p>
-                <p>Wind Speed:
-                    <div id="windSpeed">7</div> mph SW</p>
+                <p>
+                <div id="windSpeed">Wind Speed : 7 mph SW </div></p>
                 <p>Wind chill:
-                    <input type="text" size="2" class="textbox" id="outputTextBox">
-                    <button type="button" class="button" onclick="computeWindChill()">Calculate</button>
+                    <input type="text" id="windChill" size="4" class="textbox">
+                    <br><br><button class="button" onclick="calculateWindChill()">Calculate</button>
+                    <button class="button" onclick="reset()">Reset</button>
                 </p>
+
             </div>
         </section>
 
@@ -137,7 +141,7 @@
 
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
-
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>

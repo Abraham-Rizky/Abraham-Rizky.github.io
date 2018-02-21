@@ -40,6 +40,7 @@ header {
     border: 2px solid grey;
     background-color: #08b4e0;
     color: #7C4B22;
+
 }
 
 header img {
@@ -93,6 +94,8 @@ main figure img {
 }
 
 section {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     width: 90%;
     border: 2px solid black;
@@ -176,6 +179,7 @@ td {
 }
 
 .forecast {
+    order: ;
     border: 2px groove black;
     width: 90%;
     margin-bottom: 1.5em;
@@ -185,10 +189,22 @@ td {
 }
 
 .current {
+    order: 0;
     text-align: center;
 }
 
-.highlow {}
+.highlow {
+    order: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.highlow > div {
+    margin: 0 auto;
+}
 
 .clearfix:after {
     content: "";
@@ -214,17 +230,20 @@ td {
 
 }
 
-.navigation.responsive {
-}
+.navigation.responsive {}
 
 .navigation.responsive li {
     display: block;
     background-color: lightskyblue;
-    margin:0 auto;
+    margin: 0 auto;
     border: 1px groove black;
     text-align: center;
-
-
+    width: 80%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+.navigation.responsive li:first-child {
+    margin-top: 2%;
 }
 
 .navigation.responsive li a {
@@ -234,6 +253,7 @@ td {
     color: #eee;
     font-weight: 800;
     display: block;
+    padding: 2% 2%;
 }
 
 .navigation.responsive li a:hover {
@@ -241,9 +261,29 @@ td {
     color: white;
 
 }
+
+/*
 button {
     border-radius: 7px;
     background-color: darkgrey;
     color: #4C721D;
     margin-left: 1%;
+}
+*/
+
+.button {
+    -webkit-transition-duration: 0.3s;
+    /* Safari */
+    transition-duration: 0.4s;
+    background-color: #08b4e0;
+    color: white;
+    width: 100px;
+    padding: 1% 1%;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: grey;
+    /* Green */
+    color: white;
 }

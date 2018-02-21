@@ -18,11 +18,11 @@
         display: none;
     }
     .navigation {
-        overflow: hidden;
-        text-align: center;
-    }
+            }
+
     .navigation li {
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
         margin-left: .25em;
         background-color: lightskyblue;
         width: 14%;
