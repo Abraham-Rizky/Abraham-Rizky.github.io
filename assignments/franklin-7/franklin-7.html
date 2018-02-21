@@ -19,8 +19,6 @@
     <!-- medium/tablet views -->
     <link href="styles/large-5.css" rel="stylesheet">
     <!-- large/wide/desktop views -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 </head>
 
 <body>
@@ -63,12 +61,12 @@
 
                 <div class="highlow">
 
-                    <div id="highTemp">
-                        <p>High: <strong>50&deg;F</strong></p>
+                    <div>
+                        <p>High: <strong><p id="highTemp">45</p>&deg;F</strong></p>
                     </div>
 
-                    <div id="lowTemp">
-                        <p>Low: <strong>40&deg;F</strong></p>
+                    <div>
+                        <p>Low: <strong><p id="lowTemp">40</p>&deg;F</strong></p>
                     </div>
                 </div>
                 <div class="current">
@@ -80,8 +78,9 @@
                 <div class="conditions">
                     <p>Precipitation:0%</p>
 
-                    <div id="windSpeed">
-                        <p>Wind Speed : 7 mph SW </p>
+                    <div>
+                        <div>Wind Speed :
+                            <p id="windSpeed">25</p> mph SW </div>
                     </div>
                     <p>Wind chill:
                         <input type="text" id="windChill" size="4" class="textbox">
