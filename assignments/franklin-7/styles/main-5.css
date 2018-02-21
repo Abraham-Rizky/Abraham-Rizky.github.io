@@ -49,22 +49,20 @@ header img {
     max-width: 100%;
 }
 
-wrapper-header {
+.wrapper-header {
     display: flex;
-
+    flex-direction: column;
 }
 
 header h1 {
     text-shadow: 2px 1px black;
     font-size: 1.6em;
     margin: 0 auto;
-    text-align: left;
     padding: 3% 3%;
 }
 
 header .subheading {
     color: #4C721D;
-    text-align: center;
     font-size: 0.9em;
     margin: 0 auto;
 }
@@ -179,7 +177,6 @@ td {
 }
 
 .forecast {
-    order: ;
     border: 2px groove black;
     width: 90%;
     margin-bottom: 1.5em;
@@ -242,6 +239,7 @@ td {
     margin-bottom: 2%;
     border-radius: 5px;
 }
+
 .navigation.responsive li:first-child {
     margin-top: 2%;
 }

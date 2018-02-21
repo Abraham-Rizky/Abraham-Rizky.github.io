@@ -20,7 +20,7 @@
     .navigation {
         display: flex;
         flex-direction: row;
-        margin-top:2%;
+        margin-top: 2%;
     }
 
     .navigation li {
@@ -53,3 +53,4 @@
     }
     /* responsive images */
 }
+
