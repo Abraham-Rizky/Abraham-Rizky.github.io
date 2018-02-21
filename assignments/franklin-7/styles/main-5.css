@@ -52,19 +52,21 @@ header img {
 .wrapper-header {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 header h1 {
     text-shadow: 2px 1px black;
     font-size: 1.6em;
     margin: 0 auto;
-    padding: 3% 3%;
+    padding: 1% 1%;
 }
 
 header .subheading {
     color: #4C721D;
-    font-size: 0.9em;
+    font-size: 1em;
     margin: 0 auto;
+    padding: 1% 1%;
 }
 
 main {
@@ -73,6 +75,13 @@ main {
 }
 
 main h2 {
+    text-align: center;
+    font-size: 24px;
+    clear: both;
+    color: #7C4B22;
+}
+
+main h3 {
     text-align: center;
     font-size: 24px;
     clear: both;
@@ -114,14 +123,13 @@ article {
     margin: 0 auto;
     border-radius: 10px;
     max-width: 90%;
-    padding: 3em 3em;
+    padding: 5em 5em;
 
 }
 
 article p.town-article img {
     width: 100%;
     height: 100%;
-    margin-bottom: 10px;
     /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     /* fill the page in the small/phone view */
 }
@@ -183,24 +191,30 @@ td {
     text-align: center;
     display: none;
     padding: 1em 1em;
+    order: 1;
 }
 
 .current {
-    order: 0;
     text-align: center;
+    order: 1;
+}
+
+.conditions {
+    order: 2;
 }
 
 .highlow {
-    order: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
+    order: 0;
 }
 
 .highlow > div {
     margin: 0 auto;
+    padding: 2% 2%
 }
 
 .clearfix:after {
@@ -259,6 +273,7 @@ td {
     color: white;
 
 }
+
 .button {
     -webkit-transition-duration: 0.3s;
     /* Safari */

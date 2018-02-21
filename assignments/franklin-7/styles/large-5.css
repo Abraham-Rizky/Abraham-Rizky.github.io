@@ -7,23 +7,43 @@
     section.forecast {
         display: block;
     }
-    .main-container {
-        display: block;
-        text-align: center;
+    .section1 {
+        display: flex;
+        flex-direction: row;
     }
-    main figure {}
-    main figure img {
-        width: 90%;
+    .conditions {
+        order: 3;
+        width: 40%;
         margin: 0;
-        padding: 0;
-        margin-bottom: 2%;
-    }
-    main .section1 {
-        margin-right: 0;
-        padding: 0;
+        padding 0;
         margin: 0 auto;
-        width: 90%;
-        margin-bottom: 2%;
+        font-size: 1.2em;
+
+    }
+    .current {
+        order: 1;
+        width: 40%;
+        margin: 0;
+        padding 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3em;
+    }
+    .current p{
+        order:1;
+        font-size: 2em;
+        margin: 5% 5%;
+    }
+    .highlow {
+        order: 2;
+        width: 20%;
+        margin: 0;
+        padding 0;
+        margin: 0 auto;
+        font-size: 1.3em;
+
+
     }
 
 }
