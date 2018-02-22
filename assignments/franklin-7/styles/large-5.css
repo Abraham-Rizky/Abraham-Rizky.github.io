@@ -50,5 +50,11 @@
     .picture-container figure figcaption {
         display: block;
     }
+    .picture-container figure img:hover {
+        box-shadow: 5px 5px 10px gray;
+    }
+    .picture-container div figure p {
+        display: block;
+    }
 
 }
