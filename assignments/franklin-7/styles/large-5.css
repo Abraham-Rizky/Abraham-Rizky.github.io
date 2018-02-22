@@ -13,7 +13,7 @@
     }
     .conditions {
         order: 3;
-        width: 40%;
+        width: 30%;
         margin: 0;
         padding 0;
         margin: 0 auto;
@@ -22,7 +22,7 @@
     }
     .current {
         order: 1;
-        width: 40%;
+        width: 30%;
         margin: 0;
         padding 0;
         display: flex;
@@ -37,7 +37,7 @@
     }
     .highlow {
         order: 2;
-        width: 20%;
+        width: 30%;
         margin: 0;
         padding 0;
         margin: 0 auto;
