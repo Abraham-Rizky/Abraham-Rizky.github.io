@@ -15,7 +15,6 @@
         order: 3;
         width: 30%;
         margin: 0;
-        padding 0;
         margin: 0 auto;
         font-size: 1.2em;
 
@@ -24,7 +23,6 @@
         order: 1;
         width: 30%;
         margin: 0;
-        padding 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -39,7 +37,6 @@
         order: 2;
         width: 30%;
         margin: 0;
-        padding 0;
         margin: 0 auto;
         font-size: 1.3em;
     }
