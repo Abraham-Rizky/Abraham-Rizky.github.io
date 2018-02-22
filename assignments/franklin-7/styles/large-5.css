@@ -30,8 +30,8 @@
         justify-content: center;
         font-size: 1.3em;
     }
-    .current p{
-        order:1;
+    .current p {
+        order: 1;
         font-size: 2em;
         margin: 5% 5%;
     }
@@ -47,7 +47,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    figcaption{
+    .picture-container figure figcaption {
         display: block;
     }
 

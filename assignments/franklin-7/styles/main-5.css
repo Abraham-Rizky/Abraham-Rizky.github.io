@@ -296,10 +296,13 @@ td {
     grid-template-columns: 1fr;
 }
 
-figure {}
 
 .picture-container figure figcaption {
     text-align: center;
     margin-bottom: 2%;
     display: none;
+}
+
+.picture-container figure:hover{
+    box-shadow: 5px 5px 10px gray;
 }

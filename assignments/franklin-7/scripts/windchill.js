@@ -12,9 +12,9 @@ function windChillFunction(tempF,speed) {
 }
 */
 function calculateWindChill() {
-    var highTemp = parseFloat(document.getElementById(highTemp).value);
-    var lowTemp = parseFloat(document.getElementById(lowTemp).value);
-    var windSpeed = parseFloat(document.getElementById(windSpeed).value);
+    var highTemp = 45;
+    var lowTemp = 40;
+    var windSpeed = 25;
     var airAverage = (highTemp + lowTemp) / 2;
     var f = 35.74 + (0.6215 * airAverage) - (35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * airAverage * Math.pow(windSpeed, 0.16));
 
