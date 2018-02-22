@@ -54,5 +54,9 @@
     .wrapper-header {
         margin-left: -120px;
     }
+    .picture-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     /* responsive images */
 }

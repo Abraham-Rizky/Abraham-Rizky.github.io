@@ -42,8 +42,13 @@
         padding 0;
         margin: 0 auto;
         font-size: 1.3em;
-
-
+    }
+    .picture-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    figcaption{
+        display: block;
     }
 
 }
