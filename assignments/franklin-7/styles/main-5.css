@@ -298,7 +298,7 @@ td {
 
 figure {}
 
-figcaption {
+.picture-container figure figcaption {
     text-align: center;
     margin-bottom: 2%;
     display: none;
