@@ -59,14 +59,12 @@ header h1 {
     text-shadow: 2px 1px black;
     font-size: 1.6em;
     margin: 0 auto;
-    padding: 1% 1%;
 }
 
 header .subheading {
     color: #4C721D;
     font-size: 1em;
     margin: 0 auto;
-    padding: 1% 1%;
 }
 
 main {
