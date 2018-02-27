@@ -6,7 +6,7 @@ table,
 th,
 td {
     font-family: 'Ubuntu', sans-serif;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     border-collapse: collapse;
     text-align: center;
     padding: 3% 3%;
