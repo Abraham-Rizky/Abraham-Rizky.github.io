@@ -1,5 +1,5 @@
 function calculateWindChill() {
-    var highTemp = parseFloat($('body').find('#higTemp').val());
+    var highTemp = parseFloat($('body').find('#highTemp').val());
     var lowTemp = parseFloat($('main').find('#lowTemp').val());
     var windSpeed = parseFloat($('body').find('#windSpeed').val());
     var airAverage = (highTemp + lowTemp) / 2;

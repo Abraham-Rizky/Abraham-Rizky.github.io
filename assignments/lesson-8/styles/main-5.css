@@ -53,6 +53,7 @@ header img {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-left: -5%;
 }
 
 header h1 {
@@ -197,11 +198,12 @@ td {
 .current {
     text-align: center;
     order: 1;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .conditions {
     order: 2;
+    font-size: 1em
 }
 
 .highlow {
@@ -211,7 +213,7 @@ td {
     width: 100%;
     margin: 0 auto;
     order: 0;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .highlow > div {
@@ -253,7 +255,7 @@ td {
     text-align: center;
     width: 80%;
     margin-bottom: 2%;
-    border-radius: 5px;
+    border-radius: 0px 10px;
 }
 
 .navigation.responsive li:first-child {
@@ -268,6 +270,8 @@ td {
     font-weight: 800;
     display: block;
     padding: 2% 2%;
+    border-radius: 0px 10px;
+
 }
 
 .navigation.responsive li a:hover {
