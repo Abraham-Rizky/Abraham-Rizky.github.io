@@ -16,7 +16,8 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size:cover;
+    min-height: 700px;
 
 
     /* Declare the base font-family - from google font api or other */
@@ -329,7 +330,7 @@ td {
     border: grey solid 1px;
     width: 100%;
     margin: 3% auto;
-    }
+}
 
 legend {
     color: white;
