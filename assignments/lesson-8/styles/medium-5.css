@@ -64,6 +64,9 @@
     .highlow {
         width: 50%;
     }
+    .fieldset {
+        width: 80%;
 
+    }
     /* responsive images */
 }

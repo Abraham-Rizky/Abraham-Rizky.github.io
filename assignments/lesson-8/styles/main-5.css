@@ -335,7 +335,7 @@ legend {
     padding: .5em;
     border: grey solid 1px;
     background-color: #08b4e0;
-    border-radius: .4em;
+    border-radius: 0em 1em;
 }
 
 label {
