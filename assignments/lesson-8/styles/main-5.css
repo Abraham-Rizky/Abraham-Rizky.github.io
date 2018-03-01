@@ -282,9 +282,10 @@ td {
     transition-duration: 0.4s;
     background-color: #08b4e0;
     color: white;
-    width: 100px;
+    width: 150px;
     padding: 1% 1%;
     text-align: center;
+    font-size: 1em;
 }
 
 .button:hover {
@@ -310,12 +311,100 @@ td {
     text-align: justify;
     display: none;
 }
+
 .picture-container figure img {
     margin-top: 5%;
 }
 
-.textbox{
+.textbox {
     text-align: center;
-    background-color:beige;
+    background-color: beige;
 }
 
+.fieldset {
+    background-color: lightskyblue;
+    border-radius: .8em;
+    border: grey solid 1px;
+    width: 100%;
+    margin: 3% auto;
+    }
+
+legend {
+    color: white;
+    margin-left: 6%;
+    padding: .5em;
+    border: grey solid 1px;
+    background-color: #08b4e0;
+    border-radius: .4em;
+}
+
+label {
+    display: block;
+    margin: .7%;
+    margin-bottom: 5%;
+}
+
+label span {
+    display: block;
+    font-size: 1.2em;
+    color: #7C4B22;
+    padding-top: 1%;
+    padding-bottom: .2%;
+    margin-top: 2%;
+}
+
+.buttonLeft {
+    background-color: #4C721D;
+    margin-left: .7%;
+    -webkit-transition-duration: 0.3s;
+    /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    width: 150px;
+    padding: 1% 1%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.buttonLeft:hover {
+    background-color: grey;
+    /* Green */
+    color: antiquewhite;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 2%
+}
+
+input,
+select,
+textarea {
+    font-family: "Dosis";
+    font-size: 1.2em;
+}
+
+.thanks > h1,
+p {
+    text-align: center;
+}
+
+.thanksFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.thanks {
+    padding: 5%;
+}
+
+.radio {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#rating {
+    width: 200px;
+}

@@ -53,5 +53,13 @@
     .picture-container div figure p {
         display: block;
     }
+    form {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+    .fieldset {
+        width: 40%;
 
+    }
 }
