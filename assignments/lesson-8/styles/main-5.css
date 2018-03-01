@@ -137,7 +137,7 @@ article p.town-article img {
 footer {
     margin-top: 2em;
     clear: both;
-    border: 2px groove grey;
+    border: 1px solid grey;
     background-color: #08b4e0;
     color: antiquewhite;
     padding: 1em 1em;
@@ -145,13 +145,11 @@ footer {
 
 footer aside {
     text-align: center;
-    color: #7C4B22;
 
 }
 
 footer > p {
     text-align: center;
-    color: #7C4B22;
     font-size: .9em
 }
 
@@ -338,7 +336,7 @@ legend {
     margin-left: 6%;
     padding: .5em;
     border: grey solid 1px;
-    background-color: #08b4e0;
+    background-color: #7C4B22;
     border-radius: 0em 1em;
 }
 
