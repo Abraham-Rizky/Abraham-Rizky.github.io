@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-us">
 
-    <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Storm Center</title>
@@ -46,6 +46,50 @@
             <li class="size1"><a href="gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
+    <main>
+        <form action="" method="post" enctype="multipart/form-data" name="attend" id="conference">
+            <fieldset>
+                <legend><span>Personal information</span></legend>
+                <label><span>Full Name: </span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required></label>
+                <label><span>Email: </span><input name="email" type="email" value="" placeholder="host@domain.com"></label>
+                <label><span>Phone number: </span><input name="number" type="tel" value="" placeholder="Phone Number" pattern="[0-9]{10,20}" required></label>
+                <label><span>Zip code: </span><input name="number" type="tel" value="" placeholder="Zip Code" pattern="[0-9]{5}" required></label>
+            </fieldset>
+            <fieldset>
+                <legend><span>Storm Info</span></legend>
+                <label><span>Date :</span><input name="date" type="date"></label>
+                <label><span>Storm type: </span><input type="text" name="stormList" list="stormList"></label>
+                <datalist id="stormList">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+                <label for="rating">Rating (1 to 10)</label>
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+                <select>
+                        <option value="Select region..." selected="selected" disabled>Select region...</option>
+                        <option value="Franklin">Franklin</option>
+                        <option value="Greenville">Greenville</option>
+                        <option value="Springfield">Springfield</option>
+                    </select>
+                <label><span>User in danger level:</span>
+                    <input name="danger" type="radio" value="yes" checked>Yes
+                    <input name="danger" type="radio" value="no">No
+                    <input name="danger" type="radio" value="maybe">Maybe</label>
+                <label>
+                    <span>Comments:</span><textarea rows="4" cols="50" placeholder="Add comment here....."></textarea>
+                </label>
+                <input type="submit" value="Sign me up!" class="submitBtn">
+                <input type="hidden" value="Conference Registration" name="Subject">
+                <input name="redirect" type="hidden" value="thanks.html">
+
+            </fieldset>
+
+        </form>
+    </main>
     <footer>
         <aside>
             The Groundhog Forecast
@@ -60,6 +104,8 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/rating.js"></script>
+
 </body>
 
 </html>
