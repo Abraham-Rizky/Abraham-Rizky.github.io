@@ -1,0 +1,412 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    margin: auto;
+    background-color: whitesmoke;
+    background-image: url(/assignments/franklin-7/images/bodybackground.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    min-height: 700px;
+
+
+    /* Declare the base font-family - from google font api or other */
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid grey;
+    background-color: #08b4e0;
+    color: #7C4B22;
+
+}
+
+header img {
+    padding: 1% 1%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.wrapper-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: -5%;
+}
+
+header h1 {
+    text-shadow: 2px 1px black;
+    font-size: 1.6em;
+    margin: 0 auto;
+}
+
+header .subheading {
+    color: #4C721D;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+main {
+    clear: both;
+    margin: 0 auto;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 24px;
+    clear: both;
+    color: #7C4B22;
+}
+
+main h3 {
+    text-align: center;
+    font-size: 24px;
+    clear: both;
+    color: #7C4B22;
+}
+
+main figure {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+main figure img {
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 8px 6px grey;
+    background-color: lightskyblue;
+    color: #4C721D;
+    margin-bottom: 1.20em;
+    margin-top: 1em;
+    max-width: 100%
+}
+
+article {
+    text-align: center;
+    color: #4C721D;
+    border: 2px groove grey;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 90%;
+    padding: 3em 3em;
+    padding-bottom: 5em;
+
+}
+
+article p.town-article img {
+    width: 100%;
+    height: 100%;
+    /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    /* fill the page in the small/phone view */
+}
+
+footer {
+    margin-top: 2em;
+    clear: both;
+    border: 1px solid grey;
+    background-color: #08b4e0;
+    color: antiquewhite;
+    padding: 1em 1em;
+}
+
+footer aside {
+    text-align: center;
+
+}
+
+footer > p {
+    text-align: center;
+    font-size: .9em
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100%;
+    table-layout: fixed;
+
+}
+
+table,
+th,
+td {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
+/* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
+
+.town-article {
+    text-align: justify;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.forecast {
+    border: 2px groove black;
+    width: 90%;
+    margin-bottom: 1.5em;
+    text-align: center;
+    display: none;
+    padding: 1em 1em;
+    order: 1;
+}
+
+.current {
+    text-align: center;
+    order: 1;
+    font-size: 1.5em;
+}
+
+.conditions {
+    order: 2;
+    font-size: 1em
+}
+
+.highlow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    order: 0;
+    font-size: 1.3em;
+}
+
+.highlow > div {
+    margin: 0 auto;
+    padding: 2% 2%
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hamburger {
+    position: absolute;
+    top: 1%;
+    right: 2%;
+}
+
+.navigation {
+    list-style: none;
+    padding-left: 0;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.navigation li {
+    display: none;
+
+}
+
+.navigation.responsive {}
+
+.navigation.responsive li {
+    display: block;
+    background-color: lightskyblue;
+    margin: 0 auto;
+    border: 1px groove black;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 2%;
+    border-radius: 0px 10px;
+}
+
+.navigation.responsive li:first-child {
+    margin-top: 2%;
+}
+
+.navigation.responsive li a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #eee;
+    font-weight: 800;
+    display: block;
+    padding: 2% 2%;
+    border-radius: 0px 10px;
+
+}
+
+.navigation.responsive li a:hover {
+    background-color: #555;
+    color: white;
+
+}
+
+.button {
+    -webkit-transition-duration: 0.3s;
+    /* Safari */
+    transition-duration: 0.4s;
+    background-color: #08b4e0;
+    color: white;
+    width: 150px;
+    padding: 1% 1%;
+    text-align: center;
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: grey;
+    /* Green */
+    color: white;
+}
+
+.picture-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5% 5%;
+    margin: 0 5%;
+}
+
+
+.picture-container figure figcaption {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.picture-container div figure p {
+    text-align: justify;
+    display: none;
+}
+
+.picture-container figure img {
+    margin-top: 5%;
+}
+
+.textbox {
+    text-align: center;
+    background-color: beige;
+}
+
+.fieldset {
+    background-color: lightskyblue;
+    border-radius: .8em;
+    border: grey solid 1px;
+    width: 100%;
+    margin: 3% auto;
+}
+
+legend {
+    color: white;
+    margin-left: 6%;
+    padding: .5em;
+    border: grey solid 1px;
+    background-color: #7C4B22;
+    border-radius: 0em 1em;
+}
+
+label {
+    display: block;
+    margin: .7%;
+    margin-bottom: 5%;
+}
+
+label span {
+    display: block;
+    font-size: 1.2em;
+    color: #7C4B22;
+    padding-top: 1%;
+    padding-bottom: .2%;
+    margin-top: 2%;
+}
+
+.buttonLeft {
+    background-color: #4C721D;
+    margin-left: .7%;
+    -webkit-transition-duration: 0.3s;
+    /* Safari */
+    transition-duration: 0.4s;
+    color: white;
+    width: 150px;
+    padding: 1% 1%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.buttonLeft:hover {
+    background-color: grey;
+    /* Green */
+    color: antiquewhite;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 2%
+}
+
+input,
+select,
+textarea {
+    font-family: "Dosis";
+    font-size: 1.2em;
+}
+
+.thanks > h1,
+p {
+    text-align: center;
+}
+
+.thanksFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.thanks {
+    padding: 5%;
+}
+
+.radio {
+    margin-left: 5%;
+}
+
+#rating {
+    width: 200px;
+}
