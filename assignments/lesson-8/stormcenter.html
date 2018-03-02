@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Storm Center</title>
     <meta name="author" content="Rizky Abraham">
-    <meta name="description" content=" A webpage for Franklin weather forecast">
+    <meta name="description" content=" Stormcenter page">
     <meta name="theme-color" content="#08b4e0">
     <!-- external style references in the proper cascading order -->
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
@@ -50,10 +50,10 @@
         <form action="thanks.html" method="get" target="_self">
             <fieldset class="fieldset">
                 <legend><span>Personal information</span></legend>
-                <label><span>Full Name: </span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._].{5,99}" "required"></label>
+                <label><span>Full Name: </span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required></label>
                 <label><span>Email: </span><input name="email" type="email" value="" placeholder="host@domain.com"></label>
-                <label><span>Phone number: </span><input name="number" type="tel" value="" placeholder="Phone Number" pattern="[0-9].{10,20}" "required"></label>
-                <label><span>Zip code: </span><input name="number" type="tel" value="" placeholder="Zip Code" pattern="[0-9].{5}" "required"></label>
+                <label><span>Phone number: </span><input name="number" type="tel" value="" placeholder="Phone Number" pattern="[0-9]{10,20}" required></label>
+                <label><span>Zip code: </span><input name="number" type="tel" value="" placeholder="Zip Code" pattern="[0-9]{5}" required></i>></label>
             </fieldset>
             <fieldset class="fieldset">
                 <legend><span>Storm Info</span></legend>
