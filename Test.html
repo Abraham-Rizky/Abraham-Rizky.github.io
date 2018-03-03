@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <script>
+        //Google Map
+        function initMap() {
+            var myLatLng = {
+                lat: 36.169941,
+                lng: -115.139830
+            };
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 7,
+                center: myLatLng
+            });
+
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'I am here!'
+            });
+        }
+
+    </script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJB7eaNu14XulyUv9oBdBh5gythVklWns&callback=initMap"> </script>
+
+    <script>
+        //Weather app
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var myObj = JSON.parse(this.responseText);
+                document.getElementById("showTemp").innerHTML = myObj.main.temp;
+                document.getElementById("showHigh").innerHTML = myObj.main.temp_max;
+                document.getElementById("showLow").innerHTML = myObj.main.temp_min;
+            }
+        };
+        xmlhttp.open("GET", "http://api.openweathermap.org/data/2.5/weather?id=5506956&appid=3366a19cf47dd4fc9f0baaaeb44afa23&units=imperial", true);
+        xmlhttp.send();
+
+    </script>
+
+    
+</head>
+
+<body>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/X6Mtpk4jeVA" allowfullscreen></iframe>
+
+
+
+    <div id="map" style="width:100%;height:400px;"></div>
+
+
+
+    <p>Temp:</p>
+    <div id="showTemp"></div><br>
+    <p>High:</p>
+    <div id="showHigh"></div><br>
+    <p>Low:</p>
+    <div id="showLow"></div><br>
+
+</body>
+
+</html>
