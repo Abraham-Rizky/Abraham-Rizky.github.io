@@ -1,13 +1,19 @@
-main figure img{
-    margin-bottom: 10%;
+main figure img {
+    margin-bottom: 5%;
 }
+
 main div {
     display: flex;
     flex-direction: column;
     text-align: left;
     justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+
 }
-main div span {
+
+main div div a:first-child {
+    text-decoration: none;
     color: white;
     margin-left: 6%;
     padding: .5em;
@@ -17,18 +23,24 @@ main div span {
     width: 150px;
     margin-bottom: 2%;
 }
+
 main div img {
-    margin: 0 auto;
     padding: 0;
-    width: 90%;
-    height: 0%;
+    width: 100%;
     border-radius: 10px;
 }
-main div div div {
+
+main div img:hover {
+    box-shadow: 5px 5px 10px gray;
+
+}
+main div div{
     width: 90%;
+}
+main div div div {
+    width: 100%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 7%;
     padding: 1%;
-
 }
