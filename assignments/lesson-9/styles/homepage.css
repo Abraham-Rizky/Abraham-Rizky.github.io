@@ -1,0 +1,30 @@
+main figure img{
+    margin-bottom: 10%;
+}
+main div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+}
+main div span {
+    color: white;
+    margin-left: 6%;
+    padding: .5em;
+    border: grey solid 1px;
+    background-color: #7C4B22;
+    border-radius: 0em 1em;
+    width: 150px;
+    margin-bottom: 2%;
+}
+main div img {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    height: 0%;
+    border-radius: 10px;
+    margin-bottom: 7%;
+}
+main div div div {
+    border: 1px solid grey;
+}
