@@ -2,12 +2,25 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
         var myObj = JSON.parse(this.responseText);
-        var newParagraph = document.createElement('h3');
-        var motto = $('#franklin-json').text("Motto : " + myObj.towns[0].motto );
-        var motto = $('#franklin-json').append("\n", " Year founded : " + myObj.towns[0].yearFounded);
-        var motto = $('#franklin-json').append( " Population : " + myObj.towns[0].currentPopulation);
-        var motto = $('#franklin-json').append( " Annual rainfall : " + myObj.towns[0].averageRainfall + "  inches");
+
+        var franklin = $('#franklin-json').text("Motto : " + myObj.towns[0].motto );
+
+        franklin = $('#franklin-json').append("<br>" + " Year founded : " + myObj.towns[0].yearFounded);
+        franklin = $('#franklin-json').append("<br>" + " Population : " + myObj.towns[0].currentPopulation);
+        franklin = $('#franklin-json').append("<br>" + " Annual rainfall : " + myObj.towns[0].averageRainfall + "  inches");
+
+        var greenville = $('#greenville-json').text("Motto : " + myObj.towns[1].motto );
+
+        greenville = $('#greenville-json').append("<br>" + " Year founded : " + myObj.towns[1].yearFounded);
+        greenville = $('#greenville-json').append("<br>" + " Population : " + myObj.towns[1].currentPopulation);
+        greenville = $('#greenville-json').append("<br>" + " Annual rainfall : " + myObj.towns[1].averageRainfall + "  inches");
+
+        var springfield = $('#springfield-json').text("Motto : " + myObj.towns[3].motto );
+
+        springfield = $('#springfield-json').append("<br>" + " Year founded : " + myObj.towns[3].yearFounded);
+        springfield = $('#springfield-json').append("<br>" + " Population : " + myObj.towns[3].currentPopulation);
+        springfield = $('#springfield-json').append("<br>" + " Annual rainfall : " + myObj.towns[3].averageRainfall + "  inches");
     }
 };
-xmlhttp.open("GET", "  https://byui-cit230.github.io/weather/data/towndata.json", true);
+xmlhttp.open("GET", "https://byui-cit230.github.io/weather/data/towndata.json", true);
 xmlhttp.send();
