@@ -7,6 +7,15 @@ html {
 body {
     width: 800px;
     margin: 0 auto;
+    background-color: whitesmoke;
+    background-image: url(/assignments/lesson-9/background.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    min-height: 700px;
+
 }
 
 h1,
@@ -19,6 +28,7 @@ h2 {
 h1 {
     font-size: 4rem;
     text-align: center;
+    color: greenyellow;
 }
 
 header p {
