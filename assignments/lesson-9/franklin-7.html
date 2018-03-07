@@ -62,8 +62,8 @@
                 <h2>&nbsp;</h2>
                 <div class="highlow">
                     <div>
-                        <div>High:</div>
-                        <p><span id="highTemp"></span>&deg;F</p>
+
+                        <p>High:<span id="highTemp"></span>&deg;F</p>
                     </div>
 
                     <div>
@@ -72,23 +72,20 @@
                     </div>
                 </div>
                 <div class="current">
-                    <p><strong><span id="currentweather"></span></strong></p>
-
-                    <img src="images/mostlycloudy.png" alt="Weather Picture" width="150" height="150">
+                    <p><strong><span id="currentweather"></span><span id="currenttemp"></span></strong></p>
+                    <img id="weatherImage" alt="Weather image" width="150" height="150">
 
                 </div>
                 <div class="conditions">
-                    <p>Precipitation:0%</p>
+                    <p>Precipitation:&nbsp;<span id="precipitation"></span>&nbsp;inch</p>
 
                     <div>
-                        <div>Wind Speed :</div>
-                        <div><input type="text" id="windSpeed" class="textbox" value="25" size="2"></div>mph SW
+                        <div>Wind Speed :<span id="windSpeed">&nbsp;</span> mph <span id="windDirection"></span></div>
+
 
                     </div>
                     <p>Wind chill:
-                        <input type="text" id="windChill" size="4" class="textbox">
-                        <br><br><button class="button" onclick="calculateWindChill()">Calculate</button>
-                        <button class="button" onclick="reset()">Reset</button>
+                        <span id="windChill"></span>&nbsp;&deg;F
                     </p>
                 </div>
             </section>
@@ -159,6 +156,7 @@
     <script src="scripts/rating.js"></script>
     <script src="scripts/towndata.js"></script>
     <script src="scripts/wu-weather.js"></script>
+    <script src="scripts/wu-weather-forecast.js"></script>
 </body>
 
 </html>
