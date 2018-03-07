@@ -13,5 +13,5 @@ xmlhttp.onreadystatechange = function () {
 
     }
 };
-xmlhttp.open("GET", "http://api.wunderground.com/api/e838f2d5852451d0/forecast/q/MN/Franklin.json", true);
+xmlhttp.open("GET", "https://api.wunderground.com/api/e838f2d5852451d0/forecast/q/MN/Franklin.json", true);
 xmlhttp.send();
