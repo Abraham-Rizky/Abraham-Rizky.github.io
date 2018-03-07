@@ -68,4 +68,8 @@
     #divHomepage div {
         margin: 4%;
     }
+    #franklin-json-container{
+        flex-direction: row;
+    }
+
 }
