@@ -115,7 +115,7 @@ section {
     color: #4C721D;
     margin-bottom: 1.20em;
     margin-top: 1em;
-    max-width: 100%
+    max-width: 100%;
 }
 
 article {
@@ -136,7 +136,6 @@ article p.town-article img {
     /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     /* fill the page in the small/phone view */
 }
-
 footer {
     margin-top: 2em;
     clear: both;
@@ -169,9 +168,15 @@ th,
 td {
     padding: 5px;
     border: 1px solid black;
-    border-radius: 10px;
 }
-
+th{
+    background-color: dodgerblue;
+    color: white;
+}
+td{
+    background-color: #08b4e0;
+    color: #7C4B22;
+}
 
 
 /* This structure refers to p elements that are direct children of the footer element */
@@ -185,7 +190,6 @@ td {
     margin-right: auto;
 
 }
-
 .forecast {
     border: 2px groove black;
     width: 90%;
@@ -209,17 +213,23 @@ td {
 
 .highlow {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin: 0 auto;
     order: 0;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .highlow > div {
     margin: 0 auto;
-    padding: 2% 2%
+    padding: 2% 2%;
+}
+#weatherdescription {
+    font-size: 1.1em;
+    text-align: center;
+    justify-content: center;
 }
 
 .clearfix:after {

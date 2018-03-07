@@ -63,11 +63,14 @@
         display: none;
     }
     .highlow {
-        width: 50%;
+        width: 60%;
     }
     .fieldset {
         width: 80%;
 
+    }
+    .highlow{
+        font-size: 1.5em;
     }
 
     /* responsive images */

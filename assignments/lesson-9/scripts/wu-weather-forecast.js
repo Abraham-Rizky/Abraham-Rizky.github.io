@@ -2,9 +2,11 @@ var xmlhttp = new XMLHttpRequest();
 
 xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
-        var myObj = JSON.parse(this.responseText);
+        var myObj2 = JSON.parse(this.responseText);
 
-        var highTemp = $('highTemp').append(myObj.forecast);
+        var highTemp = $('#highTemp').text(myObj2.forecast.simpleforecast.forecastday[1].high.fahrenheit);
+        var highTemp = $('#lowTemp').append(myObj2.forecast.simpleforecast.forecastday[1].low.fahrenheit);
+        var weatherDescription = $('#weatherdescription').text(myObj2.forecast.txt_forecast.forecastday[0].fcttext);
 
 
 
