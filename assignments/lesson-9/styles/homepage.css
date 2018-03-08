@@ -36,9 +36,11 @@ main div img:hover {
 }
 main div div{
     width: 90%;
+    margin-bottom: 5%;
 }
 main div div div {
     width: 100%;
     margin: 0 auto;
     text-align: left;
+    padding: 1%;
 }
