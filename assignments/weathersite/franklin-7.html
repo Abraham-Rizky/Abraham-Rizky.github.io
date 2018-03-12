@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Franklin Weather Forecast</title>
+    <meta name="author" content="Rizky Abraham">
+    <meta name="description" content=" A webpage for Franklin weather forecast">
+    <meta name="theme-color" content="#08b4e0">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <!-- Google API font reference -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/main-5.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+    <link href="styles/medium-5.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+    <link href="styles/large-5.css" rel="stylesheet">
+    <!-- large/wide/desktop views -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class=title-image>
+            <img alt="The site logo" src="images/groundhog.png" srcset="images/groundhog-120.png 1x,
+                    images/groundhog-240.png 2x,
+                    images/groundhog-360.png 3x">
+        </div>
+        <div class="wrapper-header">
+            <h1>Groundhog Forecast</h1>
+            <div class="subheading">Let Groundhog handle the forecast for you!</div>
+        </div>
+    </header>
+    <!-- site navigation use placeholder references -->
+    <nav>
+        <button class="hamburger" onclick="toggleHam()"> &#9776;</button>
+        <ul class="navigation">
+            <li class="size1"><a href="index.html">Home</a></li>
+            <li class="active size1"><a href="franklin-7.html">Franklin</a></li>
+            <li class="size1"><a href="#">Greenville</a></li>
+            <li class="size1"><a href="#">Springfield</a></li>
+            <li class="size2"><a href="stormcenter.html">Storm Center</a></li>
+            <li class="size1"><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Franklin</h2>
+        <div>
+            <figure>
+                <img src="images/franklin-medium.jpg" alt="Franklin's picture" sizes="100vw" srcset="images/franklin-small.jpg 400w,
+                          images/franklin-medium.jpg 800w,
+                          images/franklin-large.jpg 1200w">
+            </figure>
+            <h3>Weather Summary</h3>
+
+            <section class="section1">
+                <h2>&nbsp;</h2>
+                <div class="highlow">
+
+                    <div>
+                        <p>High &nbsp;<span id="highTemp"></span>&nbsp;&deg;F</p>
+                    </div>
+
+                    <div>
+                        <p>Low &nbsp;<span id="lowTemp"></span>&nbsp;&deg;F</p>
+                    </div>
+                    <div><span id="weatherdescription"></span></div>
+                </div>
+
+                <div class="current">
+                    <p><strong><span id="currentweather"></span><span id="currenttemp"></span></strong></p>
+                    <img id="weatherImage" src="/assignments/lesson-9/images/loading.gif" alt="Weather image" width="150" height="150">
+
+                </div>
+                <div class="conditions">
+                    <p>Precipitation:&nbsp;<span id="precipitation"></span>&nbsp;inch</p>
+
+                    <div>
+                        <div>Wind Speed :<span id="windSpeed">&nbsp;</span> mph <span id="windDirection"></span></div>
+
+
+                    </div>
+                    <p>Wind chill:
+                        <span id="windChill"></span>&nbsp;&deg;F
+                    </p>
+                </div>
+            </section>
+        </div>
+        <section class="forecast">
+            <h3>10 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>89&deg;F</td>
+                        <td>87&deg;F</td>
+                        <td>78&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>79&deg;F</td>
+                        <td>83&deg;F</td>
+                        <td>85&deg;F</td>
+                        <td>89&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article>
+            <h3>Franklin: Nation's safest city</h3>
+            <p class="town-article">
+
+                <img src="images/franklin2.jpg" alt="Frankin River Bed">FRANKLIN -- Franklin is the safest city in the country with a population of 25,000 or more people, according to a website that tracks data culled from the Federal Bureau of Investigation and other law enforcement agencies. For the past three years, Franklin has ranked at or close to the top of NeighborhoodScout.com’s list of 100 safest cities in the country. According to NeighborhoodScout.com, Franklin’s violent crime rate and property crime rate rank well below state and nation averages. “Once we have this complete and accurate count of crimes for every city in the nation, our analysis takes the total crimes for each city with 25,000 or more people, and divides them by the population of the city, divided by 1,000,” according to the website. “This establishes a total crime rate per 1,000 population that is used to compare every city.“ Many of the statistics used to form the website’s profile of Franklin came from the FBI’s latest report on crime in the country, released in January 2013.</p>
+
+        </article>
+        <article>
+            <h3>Town data and events</h3>
+            <div id="franklin-json-container">
+                <p id="franklin-json"></p>
+                <p id="franklin-event-json"></p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <aside>
+            The Groundhog Forecast
+            <br>123 Main St. Franklin, MN 83454
+            <br>(208) 123 2233&nbsp;&nbsp;contact@theurl.com
+        </aside>
+        <p class="footer-bar">&copy;2018 | Rizky Abraham | Groundhog Forecast</p>
+        <p><span id="currentdate">Current Date Placeholder</span></p>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/countdown.js"></script>
+    <script src="scripts/rating.js"></script>
+    <script src="scripts/towndata.js"></script>
+    <script src="scripts/wu-weather.js"></script>
+    <script src="scripts/wu-weather-forecast.js"></script>
+</body>
+
+</html>
