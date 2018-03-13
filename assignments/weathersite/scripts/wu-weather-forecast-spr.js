@@ -9,5 +9,5 @@ xmlhttp.onreadystatechange = function () {
         var weatherDescription = $('#weatherdescription').text(myObj2.forecast.txt_forecast.forecastday[0].fcttext);
     }
 };
-xmlhttp.open("GET", "https://api.wunderground.com/api/e838f2d5852451d0/forecast/q/MN/Franklin.json", true);
+xmlhttp.open("GET", "https://api.wunderground.com/api/e838f2d5852451d0/forecast/q/OR/Springfield.json", true);
 xmlhttp.send();

@@ -68,7 +68,7 @@
     #divHomepage div {
         margin: 4%;
     }
-    #franklin-json-container {
+    #franklin-json-container, #springfield-json-container {
         flex-direction: row;
     }
     body {
