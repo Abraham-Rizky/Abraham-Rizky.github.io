@@ -18,6 +18,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     min-height: 700px;
+    border: 0.1px solid grey;
 
 
     /* Declare the base font-family - from google font api or other */
@@ -130,12 +131,14 @@ article {
     margin-bottom: 2%;
 
 }
+
 article p.town-article img {
     width: 100%;
     height: 100%;
     /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     /* fill the page in the small/phone view */
 }
+
 footer {
     margin-top: 2em;
     clear: both;
@@ -169,11 +172,13 @@ td {
     padding: 5px;
     border: 1px solid black;
 }
-th{
+
+th {
     background-color: dodgerblue;
     color: white;
 }
-td{
+
+td {
     background-color: #08b4e0;
     color: #7C4B22;
 }
@@ -190,13 +195,14 @@ td{
     margin-right: auto;
 
 }
+
 .forecast {
     border: 2px groove black;
     width: 90%;
     margin-bottom: 1.5em;
     text-align: center;
     display: none;
-    padding: 1em 1em;
+    padding: 2% 2%;
     order: 1;
 }
 
@@ -226,6 +232,7 @@ td{
     margin: 0 auto;
     padding: 2% 2%;
 }
+
 #weatherdescription {
     font-size: 1.1em;
     text-align: center;
@@ -425,13 +432,24 @@ p {
 #rating {
     width: 200px;
 }
-#franklin-json-container{
+
+#franklin-json-container {
     display: flex;
     flex-direction: column;
 }
-#franklin-json-container p{
+
+#franklin-json-container p {
     width: 100%;
     text-align: center;
     font-size: 1.2em;
     padding: 3%;
+}
+
+#weatherImage {
+    width: 30%;
+    height: 50%;
+}
+
+.section1 {
+    padding: 1%;
 }
