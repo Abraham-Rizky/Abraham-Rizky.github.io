@@ -61,15 +61,17 @@
     .fieldset {
         width: 40%;
     }
-    #divHomepage{
+    #divHomepage {
         display: flex;
         flex-direction: row;
     }
     #divHomepage div {
         margin: 4%;
     }
-    #franklin-json-container{
+    #franklin-json-container {
         flex-direction: row;
     }
-
+    body {
+        width: 80%;
+    }
 }
