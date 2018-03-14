@@ -13,7 +13,7 @@ window.onload = function () {
             if (counter === 0) {
                 //    alert('this is where it happens');
                 clearInterval(counter);
-                window.location="franklin-7.html"
+                window.location="index.html"
             }
 
         }, 1000);
