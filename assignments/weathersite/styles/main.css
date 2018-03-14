@@ -212,7 +212,7 @@ td {
 
 .conditions {
     order: 2;
-    font-size: 1em
+    font-size: 1em;
 }
 
 .highlow {
@@ -220,7 +220,7 @@ td {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     order: 0;
     font-size: 1em;
@@ -430,12 +430,12 @@ p {
     width: 200px;
 }
 
-#franklin-json-container, #springfield-json-container {
+#franklin-json-container, #springfield-json-container, #greenville-json-container {
     display: flex;
     flex-direction: column;
 }
 
-#franklin-json-container p,#springfield-json-container p {
+#franklin-json-container p,#springfield-json-container p, #greenville-json-container p {
     width: 100%;
     text-align: center;
     font-size: 1.2em;
@@ -443,8 +443,8 @@ p {
 }
 
 #weatherImage {
-    width: 30%;
-    height: 50%;
+    max-width: 40%;
+    max-height: 60%;
 }
 
 .section1 {
@@ -454,5 +454,5 @@ p {
     height: 100%;
 }
 .active{
-    background-color: darkgray;
+    background-color:darkgrey;
 }

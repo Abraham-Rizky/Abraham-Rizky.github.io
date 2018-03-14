@@ -22,8 +22,6 @@ xmlhttp.onreadystatechange = function () {
         greenville = $('#greenville-event-json').append("<br>" + "<br>" + myObj.towns[1].events[1]);
         greenville = $('#greenville-event-json').append("<br>" + "<br>" + myObj.towns[1].events[2]);
         greenville = $('#greenville-event-json').append("<br>" + "<br>" + myObj.towns[1].events[3]);
-        greenville = $('#greenville-event-json').append("<br>" + "<br>" + myObj.towns[1].events[4]);
-        greenville = $('#greenville-event-json').append("<br>" + "<br>" + myObj.towns[1].events[5]);
 
 
         var springfield = $('#springfield-json').text("Motto : " + myObj.towns[3].motto);

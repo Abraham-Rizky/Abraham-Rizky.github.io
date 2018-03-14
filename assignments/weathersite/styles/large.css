@@ -12,17 +12,16 @@
         flex-direction: row;
     }
     .conditions {
+        display: flex;
+        flex-direction: column;
         order: 3;
         width: 30%;
-        margin: 0;
-        margin: 0 auto;
         font-size: 1.2em;
-
+        justify-content: center;
     }
     .current {
         order: 1;
         width: 30%;
-        margin: 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -36,8 +35,7 @@
     .highlow {
         order: 2;
         width: 30%;
-        margin: 0 auto;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .picture-container {
@@ -68,7 +66,7 @@
     #divHomepage div {
         margin: 4%;
     }
-    #franklin-json-container, #springfield-json-container {
+    #franklin-json-container, #springfield-json-container, #greenville-json-container{
         flex-direction: row;
     }
     body {
