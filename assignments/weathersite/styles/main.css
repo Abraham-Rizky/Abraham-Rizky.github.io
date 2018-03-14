@@ -46,7 +46,7 @@ header {
 }
 
 header img {
-    padding: 1% 1%;
+    padding: 4% 4%;
     max-height: 100%;
     max-width: 100%;
 }
@@ -261,9 +261,14 @@ td {
     border-radius: 0px 10px;
 }
 
+.nav ul li:active {
+    background-color: darkgray;
+}
+
 .navigation li a {
     border-radius: 0px 10px;
 }
+
 .navigation.responsive {}
 
 .navigation.responsive li {
@@ -430,12 +435,16 @@ p {
     width: 200px;
 }
 
-#franklin-json-container, #springfield-json-container, #greenville-json-container {
+#franklin-json-container,
+#springfield-json-container,
+#greenville-json-container {
     display: flex;
     flex-direction: column;
 }
 
-#franklin-json-container p,#springfield-json-container p, #greenville-json-container p {
+#franklin-json-container p,
+#springfield-json-container p,
+#greenville-json-container p {
     width: 100%;
     text-align: center;
     font-size: 1.2em;
@@ -443,16 +452,18 @@ p {
 }
 
 #weatherImage {
-    max-width: 40%;
-    max-height: 60%;
+    width: 3em;
+    max-height: 3em;
 }
 
 .section1 {
     padding: 1%;
 }
-.gallery-picture{
+
+.gallery-picture {
     height: 100%;
 }
-.active{
-    background-color:darkgrey;
+
+.active {
+    background-color: darkgrey;
 }
