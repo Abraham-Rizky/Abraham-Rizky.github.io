@@ -69,9 +69,11 @@
         width: 80%;
 
     }
-    .highlow{
+    .highlow {
         font-size: 1.5em;
     }
-
+    .navigation a:active {
+        background-color: #4C721D;
+    }
     /* responsive images */
 }

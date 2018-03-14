@@ -74,4 +74,8 @@
     body {
         width: 80%;
     }
+    main figure img {
+        height: 500px;
+
+    }
 }
