@@ -26,10 +26,10 @@
 
     <header>
         <div class=title-image>
-            <img alt="The site logo" src="images/groundhog.png" srcset="images/groundhog-120.png 1x,
-                                                                            images/groundhog-240.png 2x,
-                                                                            images/groundhog-360.png 3x">
-        </div>
+            <a href="index.html"><img alt="The site logo" src="images/groundhog.png" srcset="images/groundhog-120.png 1x,
+                images/groundhog-240.png 2x,
+                images/groundhog-360.png 3x">
+            </a></div>
         <div class="wrapper-header">
             <h1>Groundhog Forecast</h1>
             <div class="subheading">Let Groundhog handle the forecast for you!</div>
@@ -63,11 +63,11 @@
                 <div class="highlow">
 
                     <div>
-                        <p>High &nbsp;<span id="highTemp"></span>&nbsp;&deg;F</p>
+                        <p>High &nbsp;<span id="highTemp">42</span>&nbsp;&deg;F</p>
                     </div>
 
                     <div>
-                        <p>Low &nbsp;<span id="lowTemp"></span>&nbsp;&deg;F</p>
+                        <p>Low &nbsp;<span id="lowTemp">35</span>&nbsp;&deg;F</p>
                     </div>
                     <div><span id="weatherdescription"></span></div>
                 </div>
@@ -78,10 +78,10 @@
 
                 </div>
                 <div class="conditions">
-                    <p>Precipitation:&nbsp;<span id="precipitation"></span>&nbsp;inch</p>
+                    <p>Precipitation:&nbsp;<span id="precipitation">0</span>&nbsp;%</p>
 
                     <div>
-                        <div>Wind Speed :<span id="windSpeed">&nbsp;</span> mph <span id="windDirection"></span></div>
+                        <div>Wind Speed :<span id="windSpeed">5</span> mph <span id="windDirection"></span></div>
 
 
                     </div>
@@ -153,6 +153,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/towndata.js"></script>
+    <script src="scripts/windchill.js"></script>
     <script src="scripts/wu-weather-spr.js"></script>
     <script src="scripts/wu-weather-forecast-spr.js"></script>
 

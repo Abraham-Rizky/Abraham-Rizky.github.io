@@ -6,11 +6,11 @@ xmlhttp.onreadystatechange = function () {
 
         var currentWeather = $('#currentweather').text(myObj.current_observation.weather);
         var currentTemp = $('#currenttemp').append("<br>" + "<br>" + myObj.current_observation.temp_f + " &deg; F");
-        var windSpeed = $('#windSpeed').append(myObj.current_observation.wind_mph);
+        //var windSpeed = $('#windSpeed').append(myObj.current_observation.wind_mph);
         var windDirection = $('#windDirection').append(myObj.current_observation.wind_dir);
         var image = $('#weatherImage').attr('src', myObj.current_observation.icon_url);
-        var precipitation = $('#precipitation').append(myObj.current_observation.precip_today_in);
-        var windChill = $('#windChill').text(myObj.current_observation.windchill_f);
+        //var precipitation = $('#precipitation').append(myObj.current_observation.precip_today_in);
+        //var windChill = $('#windChill').text(myObj.current_observation.windchill_f);
 
 
 

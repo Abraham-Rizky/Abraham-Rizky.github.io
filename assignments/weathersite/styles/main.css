@@ -11,7 +11,7 @@ body {
     font-family: 'Dosis', sans-serif;
     margin: auto;
     background-color: whitesmoke;
-    background-image: url(/assignments/franklin-7/images/bodybackground.jpg);
+    background-image: url(/images/bodybackground.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -60,15 +60,16 @@ header img {
 
 header h1 {
     text-shadow: 2px 1px black;
-    font-size: 3em;
+    font-size: 1.7em;
     margin: 0 auto;
     margin-bottom: 1%;
 }
 
 header .subheading {
     color: #4C721D;
-    font-size: 1.4em;
+    font-size: 1.1em;
     margin: 0 auto;
+    font-weight: bolder;
 }
 
 main {
@@ -179,6 +180,7 @@ th {
 td {
     background-color: #08b4e0;
     color: #7C4B22;
+    font-weight: 1000;
 }
 
 
@@ -207,12 +209,14 @@ td {
 .current {
     text-align: center;
     order: 1;
-    font-size: 1.5em;
+    font-size: 1.8em;
+    font-weight: bolder;
 }
 
 .conditions {
     order: 2;
-    font-size: 1em;
+    font-size: 1.3em;
+    margin-bottom: 10%;
 }
 
 .highlow {
@@ -223,7 +227,9 @@ td {
     width: 80%;
     margin: 0 auto;
     order: 0;
-    font-size: 1em;
+    font-size: 1.2em;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .highlow > div {
