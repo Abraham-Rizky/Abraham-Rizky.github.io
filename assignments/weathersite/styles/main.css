@@ -60,14 +60,14 @@ header img {
 
 header h1 {
     text-shadow: 2px 1px black;
-    font-size: 1.6em;
+    font-size: 3em;
     margin: 0 auto;
     margin-bottom: 1%;
 }
 
 header .subheading {
     color: #4C721D;
-    font-size: 1em;
+    font-size: 1.4em;
     margin: 0 auto;
 }
 
