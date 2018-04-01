@@ -74,13 +74,11 @@ header h1 {
 }
 .motto{
     position: absolute;
-    top: 120px;
-    margin: 0 auto;
-    font-size: 2em;
-    margin-left: auto;
+    top:20%;
     margin-right: auto;
-    left: 0;
-    right: 0;
+    left: 20%;
+    font-size: 2em;
+    color: white;
 }
 header .subheading {
     color: #4C721D;
