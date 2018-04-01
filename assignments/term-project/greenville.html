@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Greenville Weather Forecast</title>
+    <meta name="author" content="Rizky Abraham">
+    <meta name="description" content=" A webpage for Greenville weather forecast">
+    <meta name="theme-color" content="#08b4e0">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <!-- Google API font reference -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/main.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+    <link href="styles/medium.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+    <link href="styles/large.css" rel="stylesheet">
+    <!-- large/wide/desktop views -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class=title-image>
+            <a href="index.html"><img alt="The site logo" src="images/groundhog.png" srcset="images/groundhog-120.png 1x,
+                images/groundhog-240.png 2x,
+                images/groundhog-360.png 3x">
+            </a></div>
+        <div class="wrapper-header">
+            <h1>Groundhog Forecast</h1>
+            <div class="subheading">Let Groundhog handle the forecast for you!</div>
+        </div>
+    </header>
+    <!-- site navigation use placeholder references -->
+    <nav>
+        <button class="hamburger" onclick="toggleHam()"> &#9776;</button>
+        <ul id="mainmenu" class="navigation">
+            <li class="size1"><a href="index.html">Home</a></li>
+            <li class="size1"><a href="franklin.html">Franklin</a></li>
+            <li class="size1"><a href="greenville.html">Greenville</a></li>
+            <li class="size1"><a href="springfield.html">Springfield</a></li>
+            <li class="size2"><a href="stormcenter.html">Storm Center</a></li>
+            <li class="size1"><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Greenville</h2>
+        <div>
+            <figure>
+                <img src="images/greenville-medium.jpg" alt="Franklin's picture" sizes="100vw" srcset="images/greenville-small.jpg 400w,
+                                                                                                            images/greenville-medium.jpg 800w,
+                                                                                                            images/greenville-large.jpg 1200w">
+            </figure>
+            <h3>Weather Summary</h3>
+
+            <section class="section1">
+                <h2>&nbsp;</h2>
+                <div class="highlow">
+
+                    <div>
+                        <p>High &nbsp;<span id="highTemp">75</span>&nbsp;&deg;F</p>
+                    </div>
+
+                    <div>
+                        <p>Low &nbsp;<span id="lowTemp">68</span>&nbsp;&deg;F</p>
+                    </div>
+                    <div><span id="weatherdescription"></span></div>
+                </div>
+
+                <div class="current">
+                    <p><strong><span id="currentweather"></span><span id="currenttemp"></span></strong></p>
+                    <img id="weatherImage" src="/assignments/lesson-9/images/loading.gif" alt="Weather image" width="150" height="150">
+
+                </div>
+                <div class="conditions">
+                    <p>Precipitation:&nbsp;<span id="precipitation">0</span>&nbsp;%</p>
+
+                    <div>
+                        <div>Wind Speed :<span id="windSpeed">5</span> mph <span id="windDirection"></span></div>
+
+
+                    </div>
+                    <p>Wind chill:
+                        <span id="windChill"></span>&nbsp;&deg;F
+                    </p>
+                </div>
+            </section>
+        </div>
+        <section class="forecast">
+            <h3>10 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>84&deg;F</td>
+                        <td>84&deg;F</td>
+                        <td>80&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>70&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>77&deg;F</td>
+                        <td>85&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article>
+            <h3>Greenville: Cotton capital of the world</h3>
+            <p class="town-article">
+
+                <img src="images/greenville2.jpg" alt="Frankin River Bed">Greenville -- In early years, Hunt County was known as the cotton capital of the world. The world's largest inland cotton compress was located in Greenville until it was destroyed by fire in the mid-1900s. Currently, the largest industry is L3 Mission Integration Division (MID, formerly E-Systems, then Raytheon Intelligence and Information Systems (RIIS, IIS)) a major U.S. Defense contractor located at Majors Airport. This airport, created in 1942 and initially financed by the local Rotary club, was used as a training base for P-47 Thunderbolt fighter pilots in World War II, and since then has served as a focal point for economic growth in Greenville. Tourism is playing an increasing role in the local economy with attractions such as Collin Street Bakery and Splash Kingdom Water Park located on Interstate 30, and the redeveloping historic downtown featuring Landon Winery and the restored vintage Texan Theater, which opened in 2014. Tourism promotion has been under the wing of the Greenville Chamber of Commerce / Convention and Visitors Bureau and the City of Greenville, which took over CVB duties in 2014. Greenville is also known for its saddle making industry.</p>
+
+        </article>
+        <article>
+            <h3>Town data and events</h3>
+            <div id="greenville-json-container">
+                <p id="greenville-json"></p>
+                <p id="greenville-event-json"></p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <aside>
+            The Groundhog Forecast
+            <br>123 Main St. Franklin, MN 83454
+            <br>(208) 123 2233&nbsp;&nbsp;contact@theurl.com
+        </aside>
+        <p class="footer-bar">&copy;2018 | Rizky Abraham | Groundhog Forecast</p>
+        <p><span id="currentdate">Current Date Placeholder</span></p>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/towndata.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/wu-weather-forecast-gre.js"></script>
+    <script src="scripts/wu-weather-gre.js"></script>
+    <script>
+        var urlString, urlArray, pageHREF, menu, i, currentURL;
+        urlString = document.location.href;
+        urlArray = urlString.split('/');
+        pageHREF = urlArray[urlArray.length - 1];
+
+        if (pageHREF !== "") {
+            menu = document.querySelectorAll('ul#mainmenu li a');
+            for (i = 0; i < menu.length; i++) {
+                currentURL = (menu[i].getAttribute('href'));
+                menu[i].className = '';
+                if (currentURL === pageHREF) {
+                    menu[i].className = 'active';
+                }
+            }
+        }
+    </script>
+</body>
+
+
+</html>

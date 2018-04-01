@@ -1,0 +1,85 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    margin: auto;
+    background-color: whitesmoke;
+    background-image: url(/images/bodybackground.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 900px;
+    border: 0.1px solid grey;
+
+
+    /* Declare the base font-family - from google font api or other */
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #7C4B22;
+    background-image: url(/images/header-background.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:contain;
+    height: 1200px;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    left: 0;
+    top: 0;
+    margin-left: 15px;
+}
+
+.wrapper-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header h1 {
+    position: absolute;
+    top: 12px;
+    left: 75px;
+    font-size: 1em;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    color: yellow;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow:0.2px 1px black;
+}
+
+header .subheading {
+    color: #4C721D;
+    font-size: 1.1em;
+    margin: 0 auto;
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+
+
