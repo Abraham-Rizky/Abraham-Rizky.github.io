@@ -73,14 +73,17 @@ header h1 {
     color: saddlebrown;
 }
 .motto{
-    position: absolute;
+    display: block;
+    position: relative;
     top:25%;
     margin-right: auto;
-    left: 20%;
+    left: 10%;
     font-size: 2em;
     color: #207140;
     font-weight: bolder;
     text-shadow: 2px 1px black;
+    font-family: 'Open Sans Condensed', sans-serif;
+
 }
 header .subheading {
     color: #4C721D;
