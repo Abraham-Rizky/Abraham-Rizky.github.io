@@ -74,11 +74,13 @@ header h1 {
 }
 .motto{
     position: absolute;
-    top:20%;
+    top:25%;
     margin-right: auto;
     left: 20%;
     font-size: 2em;
-    color: white;
+    color: #207140;
+    font-weight: bolder;
+    text-shadow: 2px 1px black;
 }
 header .subheading {
     color: #4C721D;
@@ -87,5 +89,11 @@ header .subheading {
     font-weight: bolder;
     margin-bottom: 2%;
 }
-
+.hamburger {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    opacity: 0.8;
+    background-color: lightblue;
+}
 
