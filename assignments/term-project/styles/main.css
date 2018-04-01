@@ -37,19 +37,18 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: #7C4B22;
-    background-image: url(/images/header-background.jpg);
+    background-image: url(/images/header-background-small.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size:contain;
-    height: 1200px;
+    min-height: 1200px;
 }
 
 header img {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     position:absolute;
     left: 0;
     top: 0;
@@ -64,16 +63,25 @@ header img {
 
 header h1 {
     position: absolute;
-    top: 12px;
-    left: 75px;
-    font-size: 1em;
+    top: 20px;
+    left: 95px;
+    font-size: 1.6em;
     margin: 0 auto;
-    margin-bottom: 1%;
-    color: yellow;
     font-family: 'Open Sans Condensed', sans-serif;
-    text-shadow:0.2px 1px black;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    color: saddlebrown;
 }
-
+.motto{
+    position: absolute;
+    top: 120px;
+    margin: 0 auto;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
 header .subheading {
     color: #4C721D;
     font-size: 1.1em;
