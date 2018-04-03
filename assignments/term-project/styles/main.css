@@ -35,68 +35,51 @@ footer {
 
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    background-image: url(/images/header-background-small.jpg);
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size:contain;
-    min-height: 1200px;
+    height: 15%;
+    width: 100%;
+    border: 0.1px solid grey;
+    background-color: #8D8741;
 }
 
 header img {
     height: 70px;
     width: 70px;
-    position:absolute;
+    position: absolute;
     left: 0;
     top: 0;
     margin-left: 15px;
-}
+    margin-top: 7px;
 
-.wrapper-header {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
 }
-
 header h1 {
     position: absolute;
-    top: 20px;
-    left: 95px;
+    top: 10px;
+    left: 80px;
     font-size: 1.6em;
-    margin: 0 auto;
     font-family: 'Open Sans Condensed', sans-serif;
     text-shadow: 1px 1px black;
     text-align: center;
-    color: #313131;
+    color: whitesmoke;
 }
-.motto{
-    display: block;
-    position: relative;
-    top:25%;
-    margin-right: auto;
-    left: 10%;
+
+.motto {
     font-size: 2em;
     color: #207140;
     font-weight: bolder;
     text-shadow: 2px 1px black;
     font-family: 'Open Sans Condensed', sans-serif;
-
-}
-header .subheading {
-    color: #4C721D;
-    font-size: 1.1em;
     margin: 0 auto;
-    font-weight: bolder;
-    margin-bottom: 2%;
+}
+.headerImage{
+    width: 100%;
+    height:100%;
 }
 .hamburger {
     position: absolute;
     top: 3%;
     right: 3%;
     opacity: 0.8;
-    background-color: lightblue;
+    background-color: mintcream;
 }
-
