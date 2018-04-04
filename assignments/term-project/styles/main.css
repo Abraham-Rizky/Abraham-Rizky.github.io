@@ -103,32 +103,43 @@ header h1 {
     padding: 0;
 
 }
-.div-container div{
+
+.div-container div {
     position: relative;
     text-align: center;
     cursor: pointer;
+    max-width: 100%
 }
-.div-container div div{
+
+.div-container div:hover {
+    opacity: 0.95;
+}
+
+.div-container div div {
     position: absolute;
     bottom: 5px;
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
-    font-weight:600;
+    font-weight: 600;
     border: 1px solid black;
     width: 100%;
+    height: 20%;
     background-color: black;
     opacity: 0.5;
 }
-.div-container div div:hover{
+
+.div-container div div:hover {
     opacity: 1;
 }
-.div-container div img{
+
+.div-container div img {
     width: 100%;
     height: 100%;
     border: 0.5px solid white;
     padding: 0;
     margin-top: -4px;
 }
+
 .hamburger {
     position: absolute;
     top: 2%;
@@ -141,4 +152,54 @@ header h1 {
     cursor: pointer;
     font-weight: bolder;
     font-size: 1.5em;
+}
+
+.navigation {
+    list-style: none;
+    padding-left: 0;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li a {}
+
+.navigation.responsive {
+    position: absolute;
+    top: 63px;
+    right: 0;
+    width: 75%;
+    height: 70%;
+}
+
+.navigation.responsive li {
+    display: block;
+    background-color: black;
+    width: 100%;
+    padding: 4.8%;
+    opacity: 0.5;
+
+}
+
+.navigation.responsive li:hover {
+    opacity: 1;
+}
+
+.navigation.responsive li a {
+    text-align: right;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #eee;
+    font-weight: 800;
+    display: block;
+}
+
+main h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
 }
