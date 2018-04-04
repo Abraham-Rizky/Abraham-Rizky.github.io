@@ -102,17 +102,13 @@ header h1 {
 }
 
 .info {
-    width: 100%;
-    height: 100%;
-    background: #566069;
-    margin-bottom: 2%;
+    position: absolute;
+    bottom: 5px;
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: left;
     color: whitesmoke;
-    padding: 2%;
-    padding-bottom: 5%;
-    opacity: 0.8;
-
+    padding: 5%;
+    font-weight: bolder;
 }
 
 .info span {
@@ -255,6 +251,13 @@ main div img {
     width: 50px;
 }
 
+iframe {
+    text-align: center;
+    margin: 0 auto;
+    height: 300px;
+    width: 100%;
+}
+
 footer {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1em;
@@ -264,10 +267,47 @@ footer {
     padding: 2% 2%;
 }
 
+.sales-span {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+.sales-span img {
+    margin-bottom: 5%;
+}
+
+.sales-span ul {
+    text-align: left;
+}
+
+.span-image {
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main h3 {
+    border: 1px solid black;
+}
+
 footer a {
     text-decoration: none;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1em;
     text-align: center;
     color: white;
+}
+
+.bike-picture {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.who-are-we {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 5%;
 }
