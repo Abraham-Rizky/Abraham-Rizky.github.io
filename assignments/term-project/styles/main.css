@@ -86,6 +86,12 @@ header h1 {
     border: 1px solid white;
 }
 
+.shopButton a {
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
+
 .shopButton:hover {
     opacity: 1;
 }
@@ -202,4 +208,47 @@ main h2 {
     font-size: 2em;
     text-align: center;
     font-weight: bolder;
+}
+
+main div {
+    width: 95%;
+    height: 150px;
+    border: 1px solid white;
+    margin-bottom: 3%;
+    background-color: #566069;
+    position: relative;
+    text-align: center;
+    opacity: 0.8;
+}
+
+main div a {
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}
+main div img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+footer {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2% 2%;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: white;
 }
