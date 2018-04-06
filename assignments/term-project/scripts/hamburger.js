@@ -16,3 +16,16 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+        var myObj = JSON.parse(this.responseText);
+
+        var franklin = $('#franklin-json').text("Motto : " + myObj.towns[0].motto );
+
+        franklin = $('#franklin-json').append("<br>" + " Year founded : " + myObj.towns[0].yearFounded);
+    }
+};
+xmlhttp.open("GET", "https://byui-cit230.github.io/weather/data/towndata.json", true);
+xmlhttp.send();
