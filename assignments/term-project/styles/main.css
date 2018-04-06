@@ -402,11 +402,9 @@ td {
 }
 
 th {
-    color: white;
 }
 
 td {
-    color: white;
     font-weight: bolder;
 }
 
@@ -415,10 +413,11 @@ table {
     width: 90%;
     font-family: 'Open Sans Condensed', sans-serif;
     margin-bottom: 5%;
-    background-color: black;
+    background-color: white;
     opacity: 0.8;
     border-spacing: 0;
     border: 1px solid black;
+    color: black;
 }
 
 .tableHeading {
