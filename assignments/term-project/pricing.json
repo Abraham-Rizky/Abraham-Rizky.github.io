@@ -1,0 +1,15 @@
+[
+    {
+    "gold": "$85",
+    "silver": "$65",
+    "bronze": "$40"
+  },
+ {
+    "drivetrain": "$100",
+    "flatTire": "$7.50 + Tube cost",
+    "wheelTrue": "$15-$20",
+    "brake": "$10-$20 each",
+    "deraileur": "$10",
+    "chain": "$10"
+  }
+]

@@ -82,8 +82,9 @@ header h1 {
     color: #fff;
     cursor: pointer;
     border-radius: 4px;
-    opacity: 0.6;
+    opacity: 0.7;
     border: 1px solid white;
+    background-color: black;
 }
 
 .shopButton a {
@@ -106,7 +107,9 @@ header h1 {
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: left;
     color: white;
-    padding: 5%;
+    padding: 3%;
+    background-color: black;
+    opacity: 0.7;
 }
 
 .info span {
@@ -389,4 +392,38 @@ label span {
     width: 90%;
     margin: 0 auto;
     margin-top: 15%;
+}
+
+
+th,
+td {
+    padding: 5px;
+    border: 1px solid white;
+}
+
+th {
+    color: white;
+}
+
+td {
+    color: white;
+    font-weight: bolder;
+}
+
+table {
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 5%;
+    background-color: black;
+    opacity: 0.8;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+.tableHeading {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+
 }
