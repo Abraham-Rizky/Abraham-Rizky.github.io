@@ -401,8 +401,7 @@ td {
     border: 1px solid white;
 }
 
-th {
-}
+th {}
 
 td {
     font-weight: bolder;
@@ -424,5 +423,29 @@ table {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.5em;
+
+}
+
+.tourDiv {
+    border: 1px solid black;
+    width: 90%;
+    height: 100%;
+    opacity: 1;
+    background-color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.tourDiv ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+
+}
+.tourDiv ul li{
+}
+.tourHeading {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
 
 }
