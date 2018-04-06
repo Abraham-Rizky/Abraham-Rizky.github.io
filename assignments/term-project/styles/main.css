@@ -442,7 +442,10 @@ table {
     padding: 0;
 
 }
-.tourDiv ul li{
+.tourDiv h4, p{
+    text-align: justify;
+    margin: 0 auto;
+    padding: 3%;
 }
 .tourHeading {
     text-align: center;
