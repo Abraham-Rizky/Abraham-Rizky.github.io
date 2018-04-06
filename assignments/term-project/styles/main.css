@@ -105,9 +105,8 @@ header h1 {
     bottom: 5px;
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: left;
-    color: whitesmoke;
+    color: white;
     padding: 5%;
-    font-weight: bolder;
 }
 
 .info span {
