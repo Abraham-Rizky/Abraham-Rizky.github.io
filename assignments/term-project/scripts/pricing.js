@@ -3,9 +3,9 @@ xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
         var myObj = JSON.parse(this.responseText);
 
-        var gold = $('#gold').text(myObj.towns[0].gold );
+        var gold = $('#gold').text(myObj.mydata[0].gold );
 
     }
 };
-xmlhttp.open("GET", "https://byui-cit230.github.io/weather/data/towndata.json", true);
+xmlhttp.open("GET", "https://abraham-rizky.github.io/assignments/term-project/data/pricing.json", true);
 xmlhttp.send();
