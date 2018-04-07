@@ -3,7 +3,7 @@ xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
         var myObj = JSON.parse(this.responseText);
 
-        var gold = $('#gold').text(myObj.mydata[0].gold );
+        var gold = $('#gold').text(myObj.mydata[0].gold);
 
     }
 };
