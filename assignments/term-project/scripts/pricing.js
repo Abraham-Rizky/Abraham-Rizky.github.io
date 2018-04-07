@@ -7,6 +7,11 @@ xmlhttp.onreadystatechange = function () {
         var silver = $('#silver').text(myObj.towns[0].silver);
         var bronze = $('#bronze').text(myObj.towns[0].bronze);
         var drivetrain = $('#drivetrain').text(myObj.towns[1].drivetrain);
+        var flatTire = $('#flatTire').text(myObj.towns[1].flatTire);
+        var wheelTrue = $('#wheelTrue').text(myObj.towns[1].wheelTrue);
+        var brake = $('#brake').text(myObj.towns[1].brake);
+        var deraileur = $('#brake').text(myObj.towns[1].deraileur);
+        var chain = $('#brake').text(myObj.towns[1].chain);
 
     }
 };
