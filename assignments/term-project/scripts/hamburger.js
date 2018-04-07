@@ -48,7 +48,8 @@ xmlhttp.onreadystatechange = function () {
 
         var gold = $('#gold').text(myObj.towns[0].gold);
         var silver = $('#silver').text(myObj.towns[0].silver);
-        var silver = $('#bronze').text(myObj.towns[0].bronze);
+        var bronze = $('#bronze').text(myObj.towns[0].bronze);
+        var drivetrain = $('#drivetrain').text(myObj.towns[1].drivetrain);
 
     }
 };
