@@ -1,8 +1,8 @@
 {
     "towns" : [
         {
-            "name": "Franklin",
-            "motto": "Where you will grow!",
+            "gold": "$85",
+            "silver": "$65",
             "yearFounded": 1788,
             "currentPopulation": 30458,
             "averageRainfall": 21,
