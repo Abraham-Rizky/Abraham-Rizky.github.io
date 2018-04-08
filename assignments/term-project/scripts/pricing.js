@@ -10,8 +10,8 @@ xmlhttp.onreadystatechange = function () {
         var flatTire = $('#flatTire').text(myObj.towns[1].flatTire);
         var wheelTrue = $('#wheelTrue').text(myObj.towns[1].wheelTrue);
         var brake = $('#brake').text(myObj.towns[1].brake);
-        var deraileur = $('#brake').text(myObj.towns[1].deraileur);
-        var chain = $('#brake').text(myObj.towns[1].chain);
+        var deraileur = $('#deraileur').text(myObj.towns[1].deraileur);
+        var chain = $('#chain').text(myObj.towns[1].chain);
 
     }
 };
