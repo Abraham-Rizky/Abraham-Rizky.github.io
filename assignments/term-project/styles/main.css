@@ -46,7 +46,8 @@ header {
     top: 15px;
     left: 15px;
 }
-.logo:hover{
+
+.logo:hover {
     box-shadow: none;
 }
 
@@ -350,6 +351,8 @@ legend {
     opacity: 0.7;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    width: 35%;
+
 }
 
 label {
@@ -494,7 +497,7 @@ p {
 .accordion-bar p {
     margin-left: 0;
 }
+
 .accordion-bar p:nth-child(2) {
     margin-right: 0;
 }
-
