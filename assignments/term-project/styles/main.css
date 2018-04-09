@@ -279,6 +279,7 @@ footer p {
 
 .hide {
     display: none;
+    height: 100%;
 }
 
 .show {
