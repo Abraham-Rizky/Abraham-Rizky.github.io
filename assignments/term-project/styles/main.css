@@ -463,7 +463,6 @@ p {
 .tourHeading {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
-
 }
 
 .thanks {
@@ -501,4 +500,13 @@ p {
 
 .accordion-bar p:nth-child(2) {
     margin-right: 0;
+}
+
+.eventDiv {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
