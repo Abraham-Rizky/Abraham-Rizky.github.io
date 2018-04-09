@@ -57,9 +57,9 @@
 
     <main class="shrink">
         <h2><i>EVENTS</i></h2>
-        <h2 class="tourHeading">Annual Cycle the Continental Divide</h2>
-        <div class="tourDiv">
-
+        <span class="flexContainer">
+        <div class="tourDiv left">
+            <h2 class="tourHeading">Annual Cycle the Continental Divide</h2>
             <ul><b>Details:</b>
                 <li>Date : June 7 - 11</li>
                 <li>Duration : 5 day</li>
@@ -170,6 +170,7 @@
                 </ul>
             </div>
         </div>
+        </span>
         <form action="thanks.html" method="get" target="_self">
             <fieldset class="fieldset">
                 <legend><span>Personal Info</span></legend>
@@ -177,7 +178,7 @@
                 <label><span>Email: </span><input name="email" type="email" value="" placeholder="host@domain.com" required></label>
                 <label><span>Phone number: </span><input name="number" type="tel" value="" placeholder="Phone Number" pattern="[0-9]{10,20}"></label>
                 <label><span>Date of birth :</span><input name="date" type="date"></label>
-                <label><span>Home state/ country: </span><input name="stateorcountry" type="text" value="" placeholder="State or country" pattern="[a-zA-Z -._]{5,99}" required></label><label><span>Special accommodations/comments.:</span><textarea rows="4" cols="30" placeholder="Put your comment here....."></textarea></label>
+                <label><span>Home state/ country: </span><input name="stateorcountry" type="text" value="" placeholder="State or country" pattern="[a-zA-Z -._]{5,99}" required></label><label><span>Special accommodations/comments.:</span><textarea rows="8" cols="50" placeholder="Put your comment here....."></textarea></label>
                 <input type="submit" value="Submit" class="buttonLeft">
             </fieldset>
         </form>

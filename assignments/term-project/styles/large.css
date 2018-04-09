@@ -14,4 +14,18 @@
     footer p{
         padding: 1%;
     }
+    .sales-span{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .span-image{
+        height: 300px;
+        width: 450px;
+    }
+    .left{
+        margin-right: 2%
+    }
+    .buttonLeft{
+        padding: 1%;
+    }
 }
