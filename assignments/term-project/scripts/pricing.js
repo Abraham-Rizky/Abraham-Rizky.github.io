@@ -15,5 +15,5 @@ xmlhttp.onreadystatechange = function () {
 
     }
 };
-xmlhttp.open("GET", "http://abraham-rizky.github.io/assignments/term-project/data/pricing.json", true);
+xmlhttp.open("GET", "https://abraham-rizky.github.io/assignments/term-project/data/pricing.json", true);
 xmlhttp.send();
