@@ -78,9 +78,9 @@
                 <p>Gear Planning</p>
                 <p>&#9660;</p>
             </h4>
-            <div class="hide">Weight and consideration for food provision space are paramount details when building your kit. We both rode nearly identical Surly Ogres, equipped with XT/SLX drivetrain and hydraulic disc brakes. We rode Velocity Blunt 35’s laced to Alfine dynamo up front and XT hubs in the rear. Our tires of choice were Maxis Ardents 2.3” set up tubeless. Fortunately we experienced zero mechanicals during the route. The only things that broke were our racks. Packlists will vary by riding style, goal completion time, and skill level, but, for what it’s worth, this is our complete list:
+            <div class="hide resetDiv">Weight and consideration for food provision space are paramount details when building your kit. We both rode nearly identical Surly Ogres, equipped with XT/SLX drivetrain and hydraulic disc brakes. We rode Velocity Blunt 35’s laced to Alfine dynamo up front and XT hubs in the rear. Our tires of choice were Maxis Ardents 2.3” set up tubeless. Fortunately we experienced zero mechanicals during the route. The only things that broke were our racks. Packlists will vary by riding style, goal completion time, and skill level, but, for what it’s worth, this is our complete list:
                 <span>
-                    <ul>Equipment:
+                    <ul class="bullet"><span><b>EQUIPMENT:</b></span>
                         <li>Tent: Sierra Designs lightning 2</li>
                         <li>Sleeping Bag: Enlightened Equipment Revelation Pro 850 Drydown Quilt</li>
                         <li>Sleeping Pad: Thermarest prolight.</li>
@@ -98,7 +98,7 @@
                         <li>ACA Mapset</li>
                             </ul></span>
                 <span>
-                        <ul>Bike
+                    <ul class="bullet"><b>BIKE:</b>
                             <li>Frame: Surly Ogre Medium</li>
                             <li>Fork: Surly Ogre</li>
                             <li>Headset: Cane Creek 40</li>
@@ -122,6 +122,8 @@
                             <li> Light: Supernova E3 Triple</li>
             </ul></span>
             </div>
+        </div>
+        <div class="tourDiv">
             <h2 class="tourHeading">OTHER EVENTS</h2>
             <h4 class="accordion accordion-bar">
                 <p>Mountain Spoke Ride @ Mystic Lake</p>
@@ -156,15 +158,27 @@
                 <p>&#9660;</p>
             </h4>
             <div class="hide eventDiv">
-                <span>
-                    Located 12 miles south of Bozeman, or 1.5 miles north of Hyalite Reservoir, on the divide between Hyalite and Sourdough (Bozeman) creeks. Highlights: Great views of Hyalite Reservoir and surrounding mountains; 3.3 miles of fun and sometimes challenging singletrack; fairly low use. Tread: 1.4 miles gravel road; 1.4 miles paved road; 3.7 miles old logging road; 3.3 miles singletrack. From the corner of South 19th and Kagy Boulevard on the southwest edge of Bozeman, drive 6 miles south on South 19th. Turn left (south) on paved Hyalite Canyon Road (FR 62) and drive 10.2 miles (pavement ends at 10 miles) to Hyalite Reservoir (note gated Lick Creek Road on the left at 8.6 miles). At the reservoir, drive across the dam and go another 1.2 miles to Hood Creek boat ramp and picnic area on the right (about 0.6 mile past Hood Creek Campground). Go down the access road and take the first left. Day-use visitors can avoid the overnight camping fee by parking at sites 19 (by the outhouse) or 20.<ul><b>Details:</b>
+                Located 12 miles south of Bozeman, or 1.5 miles north of Hyalite Reservoir, on the divide between Hyalite and Sourdough (Bozeman) creeks. Highlights: Great views of Hyalite Reservoir and surrounding mountains; 3.3 miles of fun and sometimes challenging singletrack; fairly low use. Tread: 1.4 miles gravel road; 1.4 miles paved road; 3.7 miles old logging road; 3.3 miles singletrack. From the corner of South 19th and Kagy Boulevard on the southwest edge of Bozeman, drive 6 miles south on South 19th. Turn left (south) on paved Hyalite Canyon Road (FR 62) and drive 10.2 miles (pavement ends at 10 miles) to Hyalite Reservoir (note gated Lick Creek Road on the left at 8.6 miles). At the reservoir, drive across the dam and go another 1.2 miles to Hood Creek boat ramp and picnic area on the right (about 0.6 mile past Hood Creek Campground). Go down the access road and take the first left. Day-use visitors can avoid the overnight camping fee by parking at sites 19 (by the outhouse) or 20.
+                <ul><b>Details:</b>
                     <li>Date : May 29</li>
                     <li>Duration : 2 day</li>
                     <li>Cost : $150</li>
                     <li>Difficulty : Mild</li>
-                    <li>Location : Lick Creek, Bozeman, MT</li></ul></div>
-
-
+                    <li>Location : Lick Creek, Bozeman, MT</li>
+                </ul>
+            </div>
+        </div>
+        <form action="thanks.html" method="get" target="_self">
+            <fieldset class="fieldset">
+                <legend><span>Personal Info</span></legend>
+                <label><span>Full Name: </span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required></label>
+                <label><span>Email: </span><input name="email" type="email" value="" placeholder="host@domain.com" required></label>
+                <label><span>Phone number: </span><input name="number" type="tel" value="" placeholder="Phone Number" pattern="[0-9]{10,20}"></label>
+                <label><span>Date of birth :</span><input name="date" type="date"></label>
+                <label><span>Home state/ country: </span><input name="stateorcountry" type="text" value="" placeholder="State or country" pattern="[a-zA-Z -._]{5,99}" required></label><label><span>Special accommodations/comments.:</span><textarea rows="4" cols="30" placeholder="Put your comment here....."></textarea></label>
+                <input type="submit" value="Submit" class="buttonLeft">
+            </fieldset>
+        </form>
     </main>
     <footer>
         <aside>
