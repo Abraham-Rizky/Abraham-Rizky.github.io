@@ -47,10 +47,11 @@ header {
     left: 15px;
 }
 
-.smallLogo{
+.smallLogo {
     height: 20px;
     width: 30px;
 }
+
 .logo:hover {
     box-shadow: none;
 }
@@ -502,10 +503,11 @@ p {
 
 .accordion-bar p {
     margin-left: 2%;
+    width: 100%;
 }
 
 .accordion-bar p:nth-child(2) {
-    margin-right: 2%;
+    text-align: right;
 }
 
 .eventDiv {
@@ -517,19 +519,18 @@ p {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-form{
+form {
     margin-top: 4%;
 
 }
 
-.resetDiv{
+.resetDiv {
     background-color: white;
     width: 100%;
     opacity: 1;
 }
 
-.bullet li{
+.bullet li {
     text-align: left;
     padding: 1%;
 }
-
