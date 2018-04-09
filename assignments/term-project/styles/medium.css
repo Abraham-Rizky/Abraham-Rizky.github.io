@@ -7,22 +7,20 @@
     .hamburger {
         display: none;
     }
+
     .navigation {
         display: flex;
         flex-direction: row;
-        margin-top: 2%;
-        align-content: space-between;
+        align-content: stretch;
+        width: 100%;
     }
 
     .navigation li {
         display: block;
         background-color: black;
         margin-top: 0.8%;
-        margin-right: 1%;
-        border: 1px solid grey;
         margin: 0 auto;
         flex-grow: 1;
-        margin-left: 2%;
 
     }
     .navigation li:last-child {
@@ -34,12 +32,12 @@
     .navigation a {
         display: block;
         color: #eee;
-        padding: .5rem;
+        padding: .9rem;
         text-align: center;
         text-decoration: none;
         font-weight: 800;
         font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 1.2em;
+        font-size: 1em;
 
     }
     .navigation a:hover {
@@ -47,5 +45,15 @@
     }
 
     /* responsive images */
+    .flexContainer {
+        display: flex;
+    }
+    .who-are-we {
+        margin: 5% 4%;
+    }
+    .mainImg-container {
+        height: 90%;
+        margin: 0 auto;
+    }
 
 }

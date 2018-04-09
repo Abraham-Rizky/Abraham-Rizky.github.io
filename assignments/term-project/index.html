@@ -34,15 +34,26 @@
             <h1>The Mountain Spoke</h1>
         </div>
     </header>
-    <div class="mainImg-container">
+    <nav class="shrink">
+        <button class="hamburger" onclick="toggleHam()"> &#9776;</button>
+        <ul id="mainmenu" class="navigation">
+            <li class="size1"><a href="index.html">Home</a></li>
+            <li class="size1"><a href="tours.html">Tours</a></li>
+            <li class="size1"><a href="events.html">Events</a></li>
+            <li class="size1"><a href="sales.html">Sales</a></li>
+            <li class="size2"><a href="service.html">Service</a></li>
+            <li class="size1"><a href="contactus.html">Contact us</a></li>
+        </ul>
+    </nav>
+    <div class="mainImg-container shrink">
         <img id="mainImage" alt="header image" src="images/mainImg-medium.jpg" sizes="100vw" srcset="images/mainImg-small.jpg 400w,images/mainImg-medium.jpg 800w,images/mainImg-large.jpg 1200w">
         <div class="motto"><i>LET IT SPEAK TO YOU</i></div>
         <div class="info">Location: 3950 Valley Commons Drive, Bozeman, MT 59718<br>
             Hours: 9am to 8pm<br>
             Phone: (702) 693-7000</div>
-        <div class="shopButton"><a href="sales.html">Learn more</a></div>
+        <div class="shopButton"><a href="/contactus.html">Learn more</a></div>
     </div>
-        <div class="div-container">
+        <div class="div-container shrink">
         <div><a href="sales.html">
             <img class="image-home-category" alt="shop image" src="images/shop-homepage-img-medium.jpg">
             <div id="shop-img-banner">SHOP</div></a>
@@ -57,19 +68,7 @@
         </div>
     </div>
       <!-- site navigation use placeholder references -->
-    <nav>
-        <button class="hamburger" onclick="toggleHam()"> &#9776;</button>
-        <ul id="mainmenu" class="navigation">
-            <li class="size1"><a href="index.html">Home</a></li>
-            <li class="size1"><a href="tours.html">Tours</a></li>
-            <li class="size1"><a href="events.html">Events</a></li>
-            <li class="size1"><a href="sales.html">Sales</a></li>
-            <li class="size2"><a href="service.html">Service</a></li>
-            <li class="size1"><a href="contactus.html">Contact us</a></li>
-        </ul>
-    </nav>
-
-    <main>
+        <main class="shrink">
         <h2><i>EVENTS</i></h2>
         <div>
             <a href="events.html"><img class="logo smallLogo" alt="The site logo" src="images/logo.png" srcset="images/logo120.png 1x,images/logo240.png 2x,images/logo360.png 3x">Mountain Spoke Ride @ Mystic Lake<br>May 22, 2018<br>Bozeman, MT</a>

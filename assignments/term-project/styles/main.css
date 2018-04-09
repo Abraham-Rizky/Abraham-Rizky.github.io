@@ -186,7 +186,8 @@ header h1 {
 .navigation {
     list-style: none;
     padding-left: 0;
-    width: 95%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -265,6 +266,7 @@ iframe {
     margin: 0 auto;
     height: 300px;
     width: 100%;
+    margin-top: 4%;
 }
 
 footer {

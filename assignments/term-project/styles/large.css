@@ -1,2 +1,17 @@
 @media only screen and (min-width: 64em) {
     /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+
+    .shrink{
+        width: 70%;
+        margin: 0 auto;
+    }
+    header{
+        height: 80px
+    }
+    footer{
+        padding: 1%;
+    }
+    footer p{
+        padding: 1%;
+    }
+}
