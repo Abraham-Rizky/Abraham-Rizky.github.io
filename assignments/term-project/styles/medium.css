@@ -52,8 +52,12 @@
         margin: 5% 4%;
     }
     .mainImg-container {
-        height: 90%;
         margin: 0 auto;
     }
-
+    .navigation{
+        margin-bottom: -3%;
+    }
+    #mainImage{
+        margin-bottom: -3%;
+    }
 }
