@@ -363,6 +363,7 @@ legend {
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 40%;
+    margin-top: 4%;
 }
 
 label {
@@ -524,7 +525,7 @@ p {
 }
 
 form {
-    margin-top: 8%;
+    margin-top: 4%;
 
 }
 
