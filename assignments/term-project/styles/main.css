@@ -204,6 +204,7 @@ header h1 {
     right: 0;
     width: 75%;
     height: 70%;
+    z-index: 6;
 }
 
 .navigation.responsive li {
@@ -426,7 +427,6 @@ td {
 
 table {
     margin: 0 auto;
-    width: 90%;
     font-family: 'Open Sans Condensed', sans-serif;
     margin-bottom: 5%;
     background-color: whitesmoke;
@@ -434,6 +434,7 @@ table {
     border-spacing: 0;
     border: 1px solid black;
     color: black;
+    width: 80%;
 }
 
 .tableHeading {
@@ -511,12 +512,13 @@ p {
 }
 
 .eventDiv {
-    border: 1px solid black;
     width: 100%;
     height: 100%;
     opacity: 1;
     background-color: white;
     font-family: 'Open Sans Condensed', sans-serif;
+    text-align: justify;
+    padding: 2% 2%;
 }
 
 form {
@@ -533,4 +535,43 @@ form {
 .bullet li {
     text-align: left;
     padding: 1%;
+}
+
+.wording {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+    padding: 0% 4%;
+}
+
+.myWording {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+    line-height: 25px;
+    font-style: italic;
+}
+
+.owner {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: right;
+}
+
+.quote {
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    padding: 2% 2%;
+}
+
+.addPadding{
+    margin-bottom: 7.4%
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.shorter{
+    width: 55%;
 }

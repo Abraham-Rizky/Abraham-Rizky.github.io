@@ -4,6 +4,7 @@
     .shrink{
         width: 70%;
         margin: 0 auto;
+        margin-bottom: 2%;
     }
     header{
         height: 80px
@@ -27,5 +28,18 @@
     }
     .buttonLeft{
         padding: 1%;
+    }
+    table{
+        width: 60%;
+    }
+    form{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .tourDiv{
+        width: 65%;
+    }
+    .flexContainer{
+        flex-direction: row;
     }
 }

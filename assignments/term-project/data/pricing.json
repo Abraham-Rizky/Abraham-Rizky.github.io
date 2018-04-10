@@ -14,7 +14,7 @@
         },
         {
             "drivetrain": "$100",
-            "flatTire": "$7.50 + Tube cost",
+            "flatTire": "$7.50 + tube cost",
             "wheelTrue": "$15-$20",
             "brake": "$10-$20 each",
             "deraileur": "$10",
