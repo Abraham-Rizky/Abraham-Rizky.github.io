@@ -237,11 +237,13 @@ main div {
     width: 95%;
     height: 150px;
     border: 1px solid white;
-    margin-bottom: 3%;
     background-color: #566069;
     position: relative;
     text-align: center;
     opacity: 0.8;
+    margin: 0 auto;
+    padding: 5%;
+    margin-bottom: 3%;
 }
 
 main div a {
@@ -458,7 +460,8 @@ p {
 .emptyDiv {
     height: 500px;
 }
-.accordion{
+
+.accordion {
     height: 100%;
     opacity: 1;
     display: block;
@@ -473,15 +476,17 @@ p {
     display: flex;
     margin: 0 auto;
     opacity: 1;
+
 }
 
 .accordion-bar p {
-    margin-left: 2%;
     width: 100%;
+    font-size: 1em;
 }
 
 .accordion-bar p:nth-child(2) {
     text-align: right;
+    flex-shrink: 4;
 }
 
 .eventDiv {
@@ -544,43 +549,68 @@ form {
     width: 55%;
 }
 
-.eventDiv{
+.eventDiv {
     background-color: transparent;
 }
 
-.fixHeight{
+.fixHeight {
     height: 100%;
     background-color: transparent;
     margin-top: 5%;
     border: none;
 }
 
-.flexContainer{
+.flexContainer {
     display: flex;
     flex-direction: column;
 }
 
-.contactusDiv{
+.contactusDiv {
     height: 100%;
     background-color: transparent;
     border: none;
     opacity: 1;
+    padding: 2%;
 }
 
-.flexContainer-column{
+.flexContainer-column {
     display: flex;
     flex-direction: column;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: 1fr;
     height: 100%;
 }
 
-.salesDiv{
+.salesDiv {
     height: 100%;
     background-color: transparent;
     border: none;
     opacity: 1;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.salesImage {
+    position: relative;
+    width: 420px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    margin-left: -3%;
+    margin-bottom: 5%;
+}
+
+.salesDiv ul {
+    list-style-type: disc;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+
+}
+
+.shrink90 {
+    width: 90%;
 }
