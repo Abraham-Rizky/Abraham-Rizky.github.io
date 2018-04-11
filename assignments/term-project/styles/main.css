@@ -439,6 +439,7 @@ p {
 .tourHeading {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
+    height: 100%;
 }
 
 .thanks {
@@ -613,4 +614,19 @@ form {
 
 .shrink90 {
     width: 90%;
+}
+
+.centered{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.regDiv{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    height: 100%;
+}
+.addMarginBottom{
+    margin-bottom: 15%;
 }
