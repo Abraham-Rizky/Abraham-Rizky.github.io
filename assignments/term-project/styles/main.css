@@ -293,32 +293,6 @@ footer p {
     display: block;
 }
 
-.sales-span {
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: center;
-}
-
-.sales-span img {
-    margin-bottom: 1%;
-}
-
-.sales-span ul {
-    text-align: left;
-}
-
-.sales-span p {
-    background-color: black;
-    color: white;
-    padding: 2% 2%;
-    cursor: pointer;
-}
-
-.span-image {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-}
 
 footer a {
     text-decoration: none;
@@ -400,18 +374,8 @@ label span {
     color: antiquewhite;
 }
 
-.panel {
-    display: none;
-}
-
 .accordion:hover {
     opacity: 0.7;
-}
-
-.sales-span h3 {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 15%;
 }
 
 th,
@@ -494,6 +458,11 @@ p {
 .emptyDiv {
     height: 500px;
 }
+.accordion{
+    height: 100%;
+    opacity: 1;
+    display: block;
+}
 
 .accordion-bar {
     background-color: black;
@@ -503,6 +472,7 @@ p {
     width: 100%;
     display: flex;
     margin: 0 auto;
+    opacity: 1;
 }
 
 .accordion-bar p {
@@ -570,11 +540,6 @@ form {
     margin-bottom: 7.4%
 }
 
-.flexContainer {
-    display: flex;
-    flex-direction: column;
-}
-
 .shorter {
     width: 55%;
 }
@@ -588,4 +553,34 @@ form {
     background-color: transparent;
     margin-top: 5%;
     border: none;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactusDiv{
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    opacity: 1;
+}
+
+.flexContainer-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+}
+
+.salesDiv{
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    opacity: 1;
 }
