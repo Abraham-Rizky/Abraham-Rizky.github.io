@@ -239,14 +239,12 @@ main h2 {
 
 main div {
     width: 95%;
-    height: 150px;
+    height: 100%;
     border: 1px solid white;
     background-color: #566069;
     position: relative;
     text-align: center;
-    opacity: 0.8;
     margin: 0 auto;
-    padding: 5%;
     margin-bottom: 3%;
 }
 
@@ -256,6 +254,9 @@ main div a {
     font-size: 1em;
     text-align: center;
     color: white;
+}
+main div p{
+    text-align: center;
 }
 
 main div img {
@@ -648,10 +649,12 @@ form {
 }
 
 .marginBottom {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+    width: 70%;
+    padding: 0;
+}
+.marginBottom p{
+    text-align: center;
 }
 
-#here {
-    color: black;
 
-}
