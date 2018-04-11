@@ -522,6 +522,7 @@ form {
     width: 100%;
     opacity: 1;
     text-align: justify;
+    padding: 3%;
 }
 
 .bullet li {
@@ -557,7 +558,7 @@ form {
 }
 
 .addPadding {
-    margin-bottom: 7.4%
+    margin-bottom: 5%
 }
 
 .shorter {
@@ -656,6 +657,9 @@ form {
     text-align: center;
 }
 
-.center {
+.center{
     text-align: center;
+}
+.justify{
+    text-align: justify;
 }
