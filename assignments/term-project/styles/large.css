@@ -3,7 +3,6 @@
     .shrink {
         width: 70%;
         margin: 0 auto;
-        margin-bottom: 2%;
     }
     header {
         height: 80px
@@ -41,14 +40,14 @@
     .flexContainer {
         flex-direction: row;
     }
-    .grid{
+    .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    #mainImage{
-        margin: 0;
+    #mainImage {
+        margin: 0 auto;
     }
-    .salesImage{
+    .salesImage {
         min-height: 300px;
     }
 }

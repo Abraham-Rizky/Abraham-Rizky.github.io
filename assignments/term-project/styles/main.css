@@ -9,7 +9,7 @@
 body {
     font-size: 16px;
     font-family: 'Dosis', sans-serif;
-    background-color: whitesmoke;
+    background-color: white;
     background-image: url(/images/bodybackground.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -191,9 +191,13 @@ header h1 {
 
 .navigation li {
     display: none;
+    z-index: 4;
 }
 
-.navigation li a {}
+.navigation li a {
+    height: 100%;
+    width: 100%;
+}
 
 .navigation.responsive {
     position: absolute;
@@ -447,15 +451,22 @@ p {
     opacity: 1;
     font-family: 'Open Sans Condensed', sans-serif;
     width: 100%;
-    height: 500px;
-    padding: 3%;
+    height: 100vh;
     text-align: center;
     font-size: 2em;
+    margin: 0 auto;
+    padding-top: 10%;
 }
 
 .thanks p {
     margin-top: 3%;
     text-align: center;
+    color: black;
+}
+
+.thanks a {
+    color: blue;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .emptyDiv {
@@ -483,6 +494,7 @@ p {
 .accordion-bar p {
     width: 100%;
     font-size: 1em;
+    text-align: left;
 }
 
 .accordion-bar p:nth-child(2) {
@@ -509,11 +521,13 @@ form {
     background-color: white;
     width: 100%;
     opacity: 1;
+    text-align: justify;
 }
 
 .bullet li {
     text-align: left;
     padding: 1%;
+    font-size: 1.2em;
 }
 
 .wording {
@@ -587,7 +601,7 @@ form {
 
 .salesDiv {
     height: 100%;
-    background-color: transparent;
+    background-color: white;
     border: none;
     opacity: 1;
     padding: 0;
@@ -596,8 +610,9 @@ form {
 
 .salesImage {
     position: relative;
-    width:90%;
-    height: 75%;;
+    width: 90%;
+    height: 75%;
+    ;
     margin: 0;
     padding: 0;
     margin-right: 3%;
@@ -616,17 +631,27 @@ form {
     width: 90%;
 }
 
-.centered{
+.centered {
     text-align: center;
     margin: 0 auto;
 }
 
-.regDiv{
+.regDiv {
     width: 100%;
     border: none;
     background-color: transparent;
     height: 100%;
 }
-.addMarginBottom{
+
+.addMarginBottom {
     margin-bottom: 15%;
+}
+
+.marginBottom {
+    margin-bottom: 5%;
+}
+
+#here {
+    color: black;
+
 }
