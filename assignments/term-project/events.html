@@ -183,12 +183,14 @@
         <form id="form" action="thanks.html" method="get" target="_self">
             <fieldset class="fieldset">
                 <legend><span>Register</span></legend>
+                <div class="flexContainer2 resetDiv">
                 <label><span>Full Name: </span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required></label>
                 <label><span>Email: </span><input name="email" type="email" value="" placeholder="host@domain.com" required></label>
                 <label><span>Phone number: </span><input name="number" type="tel" value="" placeholder="Phone Number" pattern="[0-9]{10,20}"></label>
                 <label><span>Date of birth :</span><input name="date" type="date"></label>
                 <label><span>Home state/ country: </span><input name="stateorcountry" type="text" value="" placeholder="State or country" pattern="[a-zA-Z -._]{5,99}" required></label><label><span>Special accommodations/comments.:</span><textarea rows="8" cols="40" placeholder="Put your comment here....."></textarea></label>
                 <input type="submit" value="Submit" class="buttonLeft">
+                </div>
             </fieldset>
         </form>
     </main>
